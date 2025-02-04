@@ -1,0 +1,1467 @@
+<Plan_de_invatamant>
+    <Denumire>Plan de invatamant</Denumire>
+    <Seria_de_studenti>2022 - 2026</Seria_de_studenti>
+    <Universitatea>Universitatea Politehnica Timisoara</Universitatea>
+    <Facultatea>Facultatea de Automatica si Calculatoare</Facultatea>
+    <Program_studii>TEHNOLOGIA INFORMAȚIEI</Program_studii>
+    <Domeniul_fundamental_DF>ȘTIINȚE INGINEREȘTI</Domeniul_fundamental_DF>
+    <Ramura_De_Stiinta_RS>INGINERIA SISTEMELOR, CALCULATOARE ȘI TEHNOLOGIA INFORMAȚIEI</Ramura_De_Stiinta_RS>
+    <Domeniul_De_licenta_DL>CALCULATOARE ȘI TEHNOLOGIA INFORMAȚIEI</Domeniul_De_licenta_DL>
+    <Durata_studiilor>4 ani</Durata_studiilor>
+    <Nuamrul_de_credite>240 credite</Nuamrul_de_credite>
+    <Forma_De_Invatamant>IF - Invatamant cu frecventa</Forma_De_Invatamant>
+    <Misiune_program_studii>Misiunea programului de studii este de a produce ingineri de înaltă calificare în domeniul Calculatoare și Tehnologia Informației având cunoștințe aprofundate, teoretice și practice, atât hardware cât și software și pregatirea lor pentru o carieră de succes în dezvoltarea tehnologiei informației.</Misiune_program_studii>
+    <Obiectivele_programului_de_studii>
+        <OP ID = "1">Dobândirea cunoștiințelor fundamentale din domeniul de studiu Calculatoare și Tehnologia Informației, care să asigure înțelegerea, punerea în aplicație și crearea de noi cunoștințe în activitatea inginerească din domeniu;</OP>
+        <OP ID = "2">Dobândirea cunoștințelor inginerești de bază în specialitatea Tehnologia Informației, care să permită utilizarea metodelor moderne de analiză și sinteză ale informaticii, exploatarea și gestionarea sistemelor electronice de prelucrare și transmitere a informației, familarizarea cu cele mai noi realizări hardware și software existente.</OP>
+        <OP ID = "3">Dobândirea cunoștințelor din domenii conexe tehnologiei informației, care sunt necesare desfășurării unei activități de înalt profesionalism în practica inginerească;</OP>
+        <OP ID = "4">Dobândirea capacității de comunicare eficientă, inclusiv într-o limbă străină, pe subiecte proprii domeniului de tehnologia informației;</OP>
+        <OP ID = "5">Dobândirea abilitățiilor și experienței necesare lucrului în echipă pentru soluționarea problemelor tehnice din domeniul tehnologiei informației;</OP>
+        <OP ID = "6">Asigurarea necesarului de specialiști în tehnologia informației pentru unitățile economice din zonă, capabili de a se adapta schimbărilor rapide tehnologice care vor avea loc în viitor;</OP>
+        <OP ID = "7">Creearea condiților adecvate pentru cooperarea cu alte universități și instituții, respectiv unități economice de profil din țară și străinătate, în vederea promovării și valorificării rezultatelor activitățiilor de cercetare-inovare;</OP>
+        <OP ID = "8">Asigurarea pregătirii necesare pentru continuarea studiilor superioare în ciclul II (master) în domeniul Calculatoare și Tehnologia Informației.</OP>
+    </Obiectivele_programului_de_studii>
+    <Competentele_programului_de_studii>
+        <Competente_profesionale>
+            <CP ID = "1">CP1-Operarea cu fundamente științifice, inginerești și ale informaticii</CP>
+            <CP ID = "2">CP2-Proiectarea componenetelor hardware, software și de comunicații</CP>
+            <CP ID = "3">CP3-Soluționarea problemelor folosind instrumentele științei și ingineriei calculatoare</CP>
+            <CP ID = "4">CP4-Proiectarea și integrarea sistemelor informatice utilizând tehnologii și medii de programare</CP>
+            <CP ID = "5">CP5-Întreținerea și explorarea sistemelor hardware, software și de comunicații</CP>
+            <CP ID = "6">CP6-Utilizarea și administrarea sistemelor inteligente</CP>
+        </Competente_profesionale>
+        <Competente_transversale>
+            <CT ID = "1">CT1-Comportarea onorabilă, responsabilă, etică, în spiritul legii pentru a asigura reputația profesiei</CT>
+            <CT ID = "2">CT2-Identificarea, descrierea și derularea proceselor din managementul proiectelor, cu preluarea diferitelor roluri în echipă și descrierea clară și concisă, verbal și în scris, în limba română și într-o limbă de circulație internațională, a rezultatelor din domeniul de activitate</CT>
+            <CT ID = "3">CT3-Demonstrarea spiritului de inițiativă și acțiune pentru actualizarea cunoștințelor profesionale, economice și de cultură organizațională</CT>
+        </Competente_transversale>
+    </Competentele_programului_de_studii>
+    <Finalitati>
+        <Absolventi_licenta_vor_avea_urmatoarele_ocupatii_conform_COR_ISCO_68>
+            <OC ID = "1">252301 – administrator de retea de calculatoare,</OC>
+            <OC ID = "2">251101 – proiectant sisteme informatice,</OC>
+            <OC ID = "3">215202 – programator,</OC>
+            <OC ID = "4">251205 – inginer de sistem software,</OC>
+            <OC ID = "5">215222 – inginer sisteme de securitate,</OC>
+            <OC ID = "6">251401 – specialist in domeniul proiectarii asistate pe calculator,</OC>
+            <OC ID = "7">2521010 – administrator baze de date,</OC>
+            <OC ID = "8">215119 – proiectant sisteme de securitate.</OC>
+        </Absolventi_licenta_vor_avea_urmatoarele_ocupatii_conform_COR_ISCO_68>
+    </Finalitati>
+    <Anul ID = "1">
+        <Semestrul ID = "1">
+            <Disciplina>
+                <Denumire_disciplina>Analiza matematica</Denumire_disciplina>
+                <Cod_disciplina>100</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Algebra si geometrie</Denumire_disciplina>
+                <Cod_disciplina>101</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Fizica</Denumire_disciplina>
+                <Cod_disciplina>102</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>58</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Programarea calculatoarelor</Denumire_disciplina>
+                <Cod_disciplina>103</Cod_disciplina>
+                <Nr_credite>6</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>80</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Logica si structuri discrete</Denumire_disciplina>
+                <Cod_disciplina>104</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Limbi straine 1</Denumire_disciplina>
+                <Cod_disciplina>105</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>22</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Educatie fizica 1</Denumire_disciplina>
+                <Cod_disciplina>107</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>36</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Facultativa - se alege din tabelul aferent</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>0</Nr_credite>
+                <Forma_Evaluare>""</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+        <Semestrul ID = "2">
+            <Disciplina>
+                <Denumire_disciplina>Matematici asistate de calculator</Denumire_disciplina>
+                <Cod_disciplina>109</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Probabilitati si statistica</Denumire_disciplina>
+                <Cod_disciplina>110</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Dispozitive electronice si masurari</Denumire_disciplina>
+                <Cod_disciplina>111</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Tehnici de programare</Denumire_disciplina>
+                <Cod_disciplina>112</Cod_disciplina>
+                <Nr_credite>6</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>14</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>80</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Logica digitala</Denumire_disciplina>
+                <Cod_disciplina>113</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Limbi straine 2</Denumire_disciplina>
+                <Cod_disciplina>114</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>22</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Educatie fizica 2</Denumire_disciplina>
+                <Cod_disciplina>116</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>36</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Facultativa - se alege din tabelul aferent</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>0</Nr_credite>
+                <Forma_Evaluare>""</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+    </Anul>
+    <Anul ID = "2">
+        <Semestrul ID = "3">
+            <Disciplina>
+                <Denumire_disciplina>Retele de calculatoare</Denumire_disciplina>
+                <Cod_disciplina>200</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Structuri de date si algoritmi</Denumire_disciplina>
+                <Cod_disciplina>201</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Programare orientata pe obiecte</Denumire_disciplina>
+                <Cod_disciplina>202</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Arhitectura calculatoarelor</Denumire_disciplina>
+                <Cod_disciplina>203</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Electronica digitala</Denumire_disciplina>
+                <Cod_disciplina>204</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Achizitia si prelucrarea datelor</Denumire_disciplina>
+                <Cod_disciplina>205</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Educatie fizica 3</Denumire_disciplina>
+                <Cod_disciplina>206</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>14</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>36</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Facultativa - se alege din tabelul aferent</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>0</Nr_credite>
+                <Forma_Evaluare>""</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+        <Semestrul ID = "4">
+            <Disciplina>
+                <Denumire_disciplina>Proiectarea si analiza algoritmilor</Denumire_disciplina>
+                <Cod_disciplina>208</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Fundamente de inginerie software</Denumire_disciplina>
+                <Cod_disciplina>207</Cod_disciplina>
+                <Nr_credite>6</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>80</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Baze de date</Denumire_disciplina>
+                <Cod_disciplina>208</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Sisteme de operare 1</Denumire_disciplina>
+                <Cod_disciplina>209</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Calculatoare numerice</Denumire_disciplina>
+                <Cod_disciplina>210</Cod_disciplina>
+                <Nr_credite>6</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>14</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>80</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Comunicare</Denumire_disciplina>
+                <Cod_disciplina>211</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>33</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Programare orientata pe obiecte</Denumire_disciplina>
+                <Cod_disciplina>202</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Educatie fizica 4</Denumire_disciplina>
+                <Cod_disciplina>206</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>14</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>36</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Facultativa - se alege din tabelul aferent</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>0</Nr_credite>
+                <Forma_Evaluare>""</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+    </Anul>
+    <Anul ID= "3">
+        <Semestrul ID = "5">
+            <Disciplina>
+                <Denumire_disciplina>Bazele inteligentei artificiale</Denumire_disciplina>
+                <Cod_disciplina>300</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>42</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Proiectare cu microprocesoare</Denumire_disciplina>
+                <Cod_disciplina>301</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>14</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional1 (1 - 4 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional2 (1 - 4 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Sisteme de operare2</Denumire_disciplina>
+                <Cod_disciplina>302</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>14</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional3 (5 - 6 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Facultativa - se alege din tabelul aferent</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>0</Nr_credite>
+                <Forma_Evaluare>""</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+        <Semestrul ID = "6">
+            <Disciplina>
+                <Denumire_disciplina>Grafica asistata de calculator</Denumire_disciplina>
+                <Cod_disciplina>311</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DF</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>40</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Securitatea sistemelor de calcul</Denumire_disciplina>
+                <Cod_disciplina>312</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>44</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional4 (1 -7 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional5 (1 - 7 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional6 (1 - 7 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional7 (8 - 9 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>14</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>47</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Microeconomie</Denumire_disciplina>
+                <Cod_disciplina>313</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>8</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Practica de domeniu</Denumire_disciplina>
+                <Cod_disciplina>314</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>c</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>90</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DD</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>10</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Practica de specialitate</Denumire_disciplina>
+                <Cod_disciplina>314</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>c</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>90</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>10</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Facultativa - se alege din tabelul aferent</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>0</Nr_credite>
+                <Forma_Evaluare>""</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Facultativa - se alege din tabelul aferent</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>0</Nr_credite>
+                <Forma_Evaluare>""</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+    </Anul>
+    <Anul ID = "4">
+        <Semestrul ID = "7">
+            <Disciplina>
+                <Denumire_disciplina>Administrarea retelelor</Denumire_disciplina>
+                <Cod_disciplina>400</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>41</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>14</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>55</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional8 (1 - 9 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional9 (1 - 9 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional10 (1 - 9 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional11 (1 - 9 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>28</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Management si marketing</Denumire_disciplina>
+                <Cod_disciplina>401</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>14</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DC</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>47</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Elaborare proiect de specialitate</Denumire_disciplina>
+                <Cod_disciplina>402</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>C</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>42</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>8</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+        <Semestrul ID = "8">
+            <Disciplina>
+                <Denumire_disciplina>Antreprenoriat in CTI</Denumire_disciplina>
+                <Cod_disciplina>412</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>D</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>8</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional12 (1 - 7 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional13 (1 - 7 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional14 (1 - 7 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Optional15 (1 - 7 din tabelul aferent semestrului)</Denumire_disciplina>
+                <Cod_disciplina>0</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Elaborare proiect de specialitate</Denumire_disciplina>
+                <Cod_disciplina>413</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>C</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>154</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Elaborare proiect de specialitate</Denumire_disciplina>
+                <Cod_disciplina>414</Cod_disciplina>
+                <Nr_credite>4</Nr_credite>
+                <Forma_Evaluare>C</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>60</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>40</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Examen de diploma</Denumire_disciplina>
+                <Cod_disciplina>415</Cod_disciplina>
+                <Nr_credite>10</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>""</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+    </Anul>
+    <Discipline_optionale_anul ID = "3">
+        <Semestrul ID = "5">
+            <Optional ID = "1-2">
+                <Disciplina>
+                    <Denumire_disciplina>Prelucrarea imaginilor</Denumire_disciplina>
+                    <Cod_disciplina>303</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>D</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DD</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Algoritmi paraleli si distribuiti</Denumire_disciplina>
+                    <Cod_disciplina>304</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>D</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DD</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Ingineria si testarea sistemelor de calcul</Denumire_disciplina>
+                    <Cod_disciplina>305</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>D</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DD</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Modelare si simulare</Denumire_disciplina>
+                    <Cod_disciplina>306</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>D</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DD</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+            </Optional>
+            <Optional ID = "3">
+                <Disciplina>
+                    <Denumire_disciplina>Accelerarea hardware a aplicatiilor</Denumire_disciplina>
+                    <Cod_disciplina>307</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Administrarea bazelor de date</Denumire_disciplina>
+                    <Cod_disciplina>308</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+            </Optional>
+        </Semestrul>
+        <Semestrul ID = "6">
+            <Optional ID = "4 - 6">
+                <Disciplina>
+                    <Denumire_disciplina>Proiectarea si deszvoltarea aplicatiilor web</Denumire_disciplina>
+                    <Cod_disciplina>318</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Programare .NET</Denumire_disciplina>
+                    <Cod_disciplina>319</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Administrarea sistemelor de operare</Denumire_disciplina>
+                    <Cod_disciplina>320</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Analiza si vizualizarea datelor</Denumire_disciplina>
+                    <Cod_disciplina>321</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Complexitate si calculabilitat</Denumire_disciplina>
+                    <Cod_disciplina>322</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Sisteme incorporate</Denumire_disciplina>
+                    <Cod_disciplina>323</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Servicii complexe in retele de calculatoare</Denumire_disciplina>
+                    <Cod_disciplina>324</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>19</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+            </Optional>
+            <Optional ID = "7">
+                <Disciplina>
+                    <Denumire_disciplina>Cultura si civilizatie</Denumire_disciplina>
+                    <Cod_disciplina>316</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>D</Forma_Evaluare>
+                    <Nr_ore_curs>14</Nr_ore_curs>
+                    <Nr_ore_seminar>14</Nr_ore_seminar>
+                    <Nr_ore_laborator>0</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DC</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>47</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Etica si integritate academica</Denumire_disciplina>
+                    <Cod_disciplina>317</Cod_disciplina>
+                    <Nr_credite>3</Nr_credite>
+                    <Forma_Evaluare>D</Forma_Evaluare>
+                    <Nr_ore_curs>14</Nr_ore_curs>
+                    <Nr_ore_seminar>14</Nr_ore_seminar>
+                    <Nr_ore_laborator>0</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DC</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>47</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+            </Optional>
+        </Semestrul>
+        <Semestrul ID = "7">
+            <Optional ID = "8 - 11">
+                <Disciplina>
+                    <Denumire_disciplina>Administrarea aplicatiilor de tip CMS</Denumire_disciplina>
+                    <Cod_disciplina>403</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Calcul de inalta performanta</Denumire_disciplina>
+                    <Cod_disciplina>404</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Interfete om calculator</Denumire_disciplina>
+                    <Cod_disciplina>405</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Bioinformatica si genomica functionala</Denumire_disciplina>
+                    <Cod_disciplina>406</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Integrarea sistemelor de calcul</Denumire_disciplina>
+                    <Cod_disciplina>407</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Programarea concurenta si bazata pe evenimente</Denumire_disciplina>
+                    <Cod_disciplina>408</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Agenti inteligenti aplicatii web</Denumire_disciplina>
+                    <Cod_disciplina>409</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Proiectarea bazelor de date</Denumire_disciplina>
+                    <Cod_disciplina>410</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Proiectarea si analiza aplicatiilor mobile</Denumire_disciplina>
+                    <Cod_disciplina>411</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>28</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>69</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+            </Optional>
+        </Semestrul>
+        <Semestrul ID = "8">
+            <Optional ID = "12-15">
+                <Disciplina>
+                    <Denumire_disciplina>Managementul infrastructurii IT</Denumire_disciplina>
+                    <Cod_disciplina>416</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>14</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Retele complexe si aplicatii</Denumire_disciplina>
+                    <Cod_disciplina>417</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>14</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                <Denumire_disciplina>IoT si arhitecturi Cloud</Denumire_disciplina>
+                <Cod_disciplina>418</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>14</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>DS</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Senzori si Retele de Senzori</Denumire_disciplina>
+                    <Cod_disciplina>419</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>14</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Analiza volumelor mari de date</Denumire_disciplina>
+                    <Cod_disciplina>420</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>14</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Structuri tolerante la defecte</Denumire_disciplina>
+                    <Cod_disciplina>421</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>14</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+                <Disciplina>
+                    <Denumire_disciplina>Proiectarea driverelor</Denumire_disciplina>
+                    <Cod_disciplina>422</Cod_disciplina>
+                    <Nr_credite>5</Nr_credite>
+                    <Forma_Evaluare>E</Forma_Evaluare>
+                    <Nr_ore_curs>28</Nr_ore_curs>
+                    <Nr_ore_seminar>0</Nr_ore_seminar>
+                    <Nr_ore_laborator>14</Nr_ore_laborator>
+                    <Nr_ore_proiect>0</Nr_ore_proiect>
+                    <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                    <Categorie_formativa>DS</Categorie_formativa>
+                    <Volum_ore_necesar_pregatirii_individuale>83</Volum_ore_necesar_pregatirii_individuale>
+                </Disciplina>
+            </Optional>
+        </Semestrul>
+    </Discipline_optionale_anul>
+    <Discipline_facultative_anul ID = "1">
+        <Semestrul ID = "1">
+            <Disciplina>
+                <Denumire_disciplina>Psihologia educatiei</Denumire_disciplina>
+                <Cod_disciplina>108</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>f</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+        <Semestrul ID = "2">
+            <Disciplina>
+                <Denumire_disciplina>Pedagogie  I. Fundamentele pedagogiei. Teoria şi metodologia curriculumului</Denumire_disciplina>
+                <Cod_disciplina>117</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>f</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+    </Discipline_facultative_anul>
+    <Discipline_facultative_anul ID = "2">
+        <Semestrul ID = "3">
+            <Disciplina>
+                <Denumire_disciplina>Pedagogie  II: Teoria şi metodologia instruirii: Teoria şi metodologia evaluării</Denumire_disciplina>
+                <Cod_disciplina>207</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>f</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+        <Semestrul ID = "4">
+            <Disciplina>
+                <Denumire_disciplina>Didactica Specializarii</Denumire_disciplina>
+                <Cod_disciplina>213</Cod_disciplina>
+                <Nr_credite>5</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>28</Nr_ore_curs>
+                <Nr_ore_seminar>28</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>f</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+    </Discipline_facultative_anul>
+    <Discipline_facultative_anul ID = "3">
+        <Semestrul ID = "5">
+            <Disciplina>
+                <Denumire_disciplina>Practică pedagogică în învăţământul preuniversitar obligatoriu (1)</Denumire_disciplina>
+                <Cod_disciplina>309</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>C</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>42</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>f</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+        <Semestrul ID = "6">
+            <Disciplina>
+                <Denumire_disciplina>Managementul clasei de elevi</Denumire_disciplina>
+                <Cod_disciplina>326</Cod_disciplina>
+                <Nr_credite>3</Nr_credite>
+                <Forma_Evaluare>E</Forma_Evaluare>
+                <Nr_ore_curs>14</Nr_ore_curs>
+                <Nr_ore_seminar>14</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>0</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>f</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+            <Disciplina>
+                <Denumire_disciplina>Practică pedagogică în învăţământul preuniversitar obligatoriu (2)</Denumire_disciplina>
+                <Cod_disciplina>325</Cod_disciplina>
+                <Nr_credite>2</Nr_credite>
+                <Forma_Evaluare>C</Forma_Evaluare>
+                <Nr_ore_curs>0</Nr_ore_curs>
+                <Nr_ore_seminar>0</Nr_ore_seminar>
+                <Nr_ore_laborator>0</Nr_ore_laborator>
+                <Nr_ore_proiect>36</Nr_ore_proiect>
+                <Nr_ore_activitate_partial_asistata>0</Nr_ore_activitate_partial_asistata>
+                <Categorie_formativa>f</Categorie_formativa>
+                <Volum_ore_necesar_pregatirii_individuale>0</Volum_ore_necesar_pregatirii_individuale>
+            </Disciplina>
+        </Semestrul>
+    </Discipline_facultative_anul>
+</Plan_de_invatamant>

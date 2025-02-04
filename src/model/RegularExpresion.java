@@ -1,0 +1,38 @@
+package model;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegularExpresion {
+    public static boolean RegularExpresionData(String linie){
+        linie = linie.trim();
+        Pattern pattern = Pattern.compile("[123]?\\d\\/[1]?\\d\\/\\d{4}", Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(linie);
+        boolean matchFound = matcher.find();
+        return matchFound;
+    }
+
+    public static boolean RegularExpresionNrMatricol(String linie){
+        linie = linie.trim();
+        Pattern pattern = Pattern.compile("CTI\\d{3}[1-9]\\d{2}", Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(linie);
+        boolean matchFound = matcher.find();
+        return matchFound;
+    }
+
+    public static boolean RegularExpresionNumePrenume(String linie){
+        linie = linie.trim();
+        Pattern pattern = Pattern.compile("^[A-Z][a-z]*$", Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(linie);
+        boolean matchFound = matcher.find();
+        return matchFound;
+    }
+
+    public static boolean RegularExpresionStudent(String linie){
+        linie = linie.trim();
+        Pattern pattern = Pattern.compile("CTI\\d{3}[1-9]\\d{2}\\;[A-Z]\\w*\\;([A-Z]\\w*\\s?)+\\;[123]?\\d\\/[1]?\\d\\/\\d{4}\\;[123]?\\d\\/[1]?\\d\\/\\d{4}", Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(linie);
+        boolean matchFound = matcher.find();
+        return matchFound;
+    }
+}

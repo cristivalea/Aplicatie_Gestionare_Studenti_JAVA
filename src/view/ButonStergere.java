@@ -1,0 +1,73 @@
+package view;
+
+import model.RegularExpresion;
+import model.Repository;
+import model.Student;
+
+import javax.swing.*;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class ButonStergere extends JButton implements Comand {
+    private JLabel labelAfisareStudentCautare;
+
+    public ButonStergere(JLabel labelAfisareStudentCautare) {
+        this.labelAfisareStudentCautare = labelAfisareStudentCautare;
+    }
+
+    public void execute() {
+        Student student = null;
+        boolean c1 = false;
+        boolean c2 = false;
+        try {
+            String[] parts = this.labelAfisareStudentCautare.getText().split(" ");
+
+            if (parts.length < 2) {
+                System.err.println("Trebuie să existe cel puțin un prenume!");
+                return;
+            }
+
+            String nume1 = parts[0]; // Primul cuvânt este numele de familie
+
+            if (!RegularExpresion.RegularExpresionNumePrenume(nume1)) {
+                System.err.println("Formatul numelui de familie este greșit!");
+                return;
+            }
+
+            Set<String> prenume1 = new TreeSet<>();
+            for (int i = 1; i < parts.length; i++) {
+                if (!RegularExpresion.RegularExpresionNumePrenume(parts[i])) {
+                    System.err.println("Formatul prenumelui " + parts[i] + " este greșit!");
+                    return;
+                }
+                prenume1.add(parts[i]);
+            }
+
+            for (Student s : Repository.getInstance().getStudenti()) {
+                if (nume1.equals(s.getNumeFamilie())) {
+                    c1 = true;
+                }
+                Set<String> prenume2 = new TreeSet<>(s.getPrenume());
+                c2 = prenume1.equals(prenume2);
+                if (c1 && c2) {
+                    student = s;
+                    break;
+                }
+            }
+
+            if (student == null) {
+                System.err.println("Studentul nu a fost găsit");
+                return;
+            }
+
+            if (student.getNote().isEmpty()) {
+                Repository.getInstance().stergeStudent(student);
+                System.out.println("Studentul a fost șters cu succes");
+            } else {
+                System.err.println("Studentul nu poate fi șters deoarece are note");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

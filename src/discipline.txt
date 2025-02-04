@@ -1,0 +1,85 @@
+100;Analiza matematica;0,6;0,4;0;0;0;0;0;5
+101;Algebra si geometrie;0,6;0,4;0;0;0;0;0;5
+102;Fizica;0,6;0,4;0;0;0;0;0;5
+103;Programarea calculatoarelor;0,5;0,5;0;0;0;0;0;6
+104;Logica si structuri discrete;0,5;0,5;0;0;0;0;0;5
+105;Engleza1;0,5;0,5;0;0;0;0;0;2
+106;Germana1;0,5;0,5;0;0;0;0;0;2
+107;Sport1;0,4;0,6;0;0;0;0;0;2
+108;Psihologia educatiei;0,5;0,5;0;0;0;0;0;5
+109;Matematici asistate de calculator;0,67;0,33;0;0;0;0;0;5
+110;Probabilitati si statistica;0,66;0,34;0;0;0;0;0;5
+111;Dispozitive electronice si masuratori;0,66;0,34;0;0;0;0;0;5
+112;Tehnici de programare;0,5;0,25;0,25;0;0;0;0;6
+113;Logica digitala;0,66;0,34;0;0;0;0;0;5
+114;Engleza2;0,5;0,5;0;0;0;0;0;2
+115;Germana2;0,5;0,5;0;0;0;0;0;2
+116;Sport2;0,4;0,6;0;0;0;0;0;2
+117;Pedagogie  I. Fundamentele pedagogiei. Teoria şi metodologia curriculumului;0,5;0,5;0;0;0;0;0;5
+200;Retele de calculatoare;0,5;0,5;0;0;0;0;0;4
+201;Structuri de date si algoritmi;0,5;0,5;0;0;0;0;0;5
+202;Programare orientata pe obiecte;0,66;0,34;0;0;0;0;0;5
+203;Arhitectura calculatoarelor;0,5;0,5;0;0;0;0;0;5
+204;Electronica digitala;0,66;0,34;0;0;0;0;0;4
+205;Achizitia si prelucrarea datelor;0,66;0,34;0;0;0;0;0;5
+206;Sport3;0,4;0,6;0;0;0;0;0;2
+207;Pedagogie  II: Teoria şi metodologia instruirii: Teoria şi metodologia evaluării;0,5;0,5;0;0;0;0;0;5
+208;Proiectarea si analiza algoritmilor;0,66;0,34;0;0;0;0;0;5
+207;Fundamente de inginerie software;0,67;0,33;0;0;0;0;0;6
+208;Baze de date;0,5;0,5;0;0;0;0;0;4
+209;Sisteme de operare;0,6;0,4;0;0;0;0;0;4
+210;Calculatoare numerice;0,66;0,17;0,17;0;0;0;0;6
+211;Comunicare;0,5;0,5;0;0;0;0;0;3
+212;Sport4;0,4;0,6;0;0;0;0;0;2;
+213;Didactica Specializarii;0,5;0,5;0;0;0;0;0;5
+300;Bazele inteligentei artificiale;0,7;0,3;0;0;0;0;0;5
+301;Proiectare cu microprocesoare;0,6;0,2;0,2;0;0;0;0;5
+302;Sisteme de operare2;0,5;0,3;0,2;0;0;0;0;5
+303;Prelucrarea imaginilor;0,5;0,5;0;0;0;0;0;5
+304;Algoritmi paraleli si distribuiti;0,5;0,5;0;0;0;0;0;5
+305;Ingineria si testarea sistemelor de calcul;0,5;0,25;0,25;0;0;0;0;5
+306;Modelare si simulare;0,5;0,5;0;0;0;0;0;5
+307;Accelerarea hardware a aplicatiilor;0,6;0,4;0;0;0;0;0;5
+308;Administrarea bazelor de date;0,66;0,34;0;0;0;0;0;5
+309;Practică pedagogică în învăţământul preuniversitar obligatoriu (1);0,5;0,5;0;0;0;0;0;5
+310;Instruire asistata de calculator;0,5;0,5;0;0;0;0;0;5
+311;Grafica asistata de calculator;0,66;0,3;0;0,02;0,02;0;0;4
+312;Securitatea sistemelor de calcul;0,66;0,34;0;0;0;0;0;4
+313;Microeconomie;0,66;0,34;0;0;0;0;0;2
+314;Practica de domeniu;0,2;0,4;0,4;0;0;0;0;4
+315;Practica de specialitate;0,2;0,4;0,4;0;0;0;0;4
+316;Cultura si civilizatie;0,5;0,5;0;0;0;0;0;3
+317;Etica si integritate academica;0,3;0,4;0,3;0;0;0;0;3
+318;Proiectarea si dezvoltarea aplicatiilor web;0,66;0,34;0;0;0;0;0;3
+319;Programare .NET;0,5;0,5;0;0;0;0;0;3
+320;Administrarea sistemelor de operare;0,5;0,25;0,25;0;0;0;0;3
+321;Analiza si vizualizarea datelor;0,5;0,5;0;0;0;0;0;3
+322;Complexitate si calculabilitate;0,65;0,30;0;0,025;0,025;0;0;3
+323;Sisteme incorporate;0,6;0,2;0,2;0;0;0;0;3
+324;Servicii complexe in retele de calculatoare;0,5;0,5;0;0;0;0;0;3
+325;Practică pedagogică în învăţământul preuniversitar obligatoriu (2);0,5;0,5;0;0;0;0;0;5
+326;Managementul clasei de elevi;0,5;0,5;0;0;0;0;0;5
+327;Examen de absolvire – Nivel I;0,5;0,5;0;0;0;0;0;5
+400;Administrarea retelelor;0,5;0,25;0,25;0;0;0;0;5
+401;Management si marketing;0,5;0,5;0;0;0;0;0;3
+402;Elaborare proiect de specialitate;0;1;0;0;0;0;0;2
+403;Administrarea aplicatiilor de tip CMS;0,66;0,34;0;0;0;0;0;5
+404;Calcul de inalta performanta;0,66;0,34;0;0;0;0;0;5
+405;Interfete om calculator;0,5;0,5;0;0;0;0;0;5
+406;Bioinformatica si genomica functionala;0,7;0,3;0;0;0;0;0;5
+407;Integrarea sistemelor de calcul;0,5;0,5;0;0;0;0;0;5
+408;Programarea concurenta si bazata pe evenimente;0,65;0,35;0;0;0;0;0;5
+409;Agenti inteligenti aplicatii web;0,65;0,3;0;0,025;0,025;0;0;5
+410;Proiectarea bazelor de date;0,5;0,5;0;0;0;0;0;5
+411;Proiectarea si analiza aplicatiilor mobile;0,5;0,5;0;0;0;0;0;5
+412;Antreprenoriat in CTI;0,5;0,5;0;0;0;0;0;2
+413;Elaborare proiect de diploma;0;0;0;0;0;0;0;4
+414;Practica 3 pentru elaborarea proiectului de diploma;0;0;0;0;0;0;0;4
+415;Examen de diploma;0;0;0;0;0;0;0;10
+416;Managementul infrastructurii IT;0,25;0,25;0;0;0;0;0;5
+417;Retele complexe si aplicatii;0,5;0,5;0;0;0;0;0;5
+418;IoT si arhitecturi Cloud;0,6;0,4;0;0;0;0;0;5
+419;Senzori si Retele de Senzori;0,66;0,34;0;0;0;0;0;5
+420;Analiza volumelor mari de date;0,5;0,5;0;0;0;0;0;5
+421;Structuri tolerante la defecte;0,5;0,5;0;0;0;0;0;5
+422;Proiectarea driverelor;0,5;0,5;0;0;0;0;0;5

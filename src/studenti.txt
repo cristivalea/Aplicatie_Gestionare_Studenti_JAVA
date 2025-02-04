@@ -1,0 +1,13 @@
+CTI022105;Popescu;Daniel Ionel Aurel Octavian;4/11/1983;17/7/2022
+CTI022106;Popescu;Daniel Ionel Aurel Octavian;17/10/1982;18/7/2022
+CTI022107;Popescu;Daniel Ionel Aurel Octavian;19/9/1982;19/7/2022
+CTI022108;Popescu;Daniel Ionel Aurel Octavian;3/8/1982;17/7/2022
+CTI022109;Popescu;Daniel Ionel Aurel Octavian;3/8/1982;17/7/2022
+CTI023134;Stan;Ramona;5/11/1993;21/7/2023
+CTI024456;Mircea;Dan;2/3/1994;24/8/2023
+CTI023978;Balint;Ioana Maria;4/4/1987;12/7/2023
+CTI024702;Balint;Mihai;2/3/1992;21/8/2024
+CTI024871;Ionescu;Mirel;7/6/1995;24/8/2024
+CTI022993;Valea;Cristian Valentin;28/7/2003;15/7/2022
+CTI024630;Alex;Mihai;21/1/2001;27/7/2024
+CTI024819;Alex;Mihai;21/1/2002;21/7/2024
