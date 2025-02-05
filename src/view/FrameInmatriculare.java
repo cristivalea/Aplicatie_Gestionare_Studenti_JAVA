@@ -2,11 +2,9 @@ package view;
 
 import model.Repository;
 
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 
 public class FrameInmatriculare extends JFrame implements ActionListener {
     private JPanel panelNrMatricol;
