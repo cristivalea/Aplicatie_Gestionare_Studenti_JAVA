@@ -1,10 +1,14 @@
 package view;
 
 import model.Repository;
+import org.jdatepicker.impl.JDatePanelImpl;
+import org.jdatepicker.impl.JDatePickerImpl;
+import org.jdatepicker.impl.UtilDateModel;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Properties;
 
 public class FrameInmatriculare extends JFrame implements ActionListener {
     private JPanel panelNrMatricol;
@@ -22,13 +26,13 @@ public class FrameInmatriculare extends JFrame implements ActionListener {
 
 
     private JPanel panelDataNastere;
-    private JTextField txtDataNastere;
+    private JDatePickerImpl txtDataNastere;
     private JLabel labelDataNastere;
 
 
 
     private JPanel panelDataInmatriculare;
-    private JTextField txtDataInmatriculare;
+    private JDatePickerImpl txtDataInmatriculare;
     private JLabel labelDataInmatriculare;
 
 
@@ -41,10 +45,29 @@ public class FrameInmatriculare extends JFrame implements ActionListener {
     private JPanel panelButon;
     private JPanel mainPanel;
 
+    // Adaugă modele pentru JDatePicker
+    private UtilDateModel modelDataNastere;
+    private JDatePickerImpl datePickerDataNastere;
+
+    private UtilDateModel modelDataInmatriculare;
+    private JDatePickerImpl datePickerDataInmatriculare;
+
+    private JDatePickerImpl createDatePicker() {
+        UtilDateModel model = new UtilDateModel();
+        Properties p = new Properties();
+        p.put("text.today", "Astăzi");
+        p.put("text.month", "Lună");
+        p.put("text.year", "An");
+        JDatePanelImpl datePanel = new JDatePanelImpl(model, p);
+        return new JDatePickerImpl(datePanel, new DateLabelFormatter());
+    }
+
     public FrameInmatriculare(){
         this.mainPanel = new JPanel();
         BoxLayout layout = new BoxLayout(this.mainPanel, BoxLayout.Y_AXIS);
         this.mainPanel.setLayout(layout);
+
+
 
         this.panelNrMatricol = new JPanel();
         this.txtNrMatricol = new JTextField(50);
@@ -69,14 +92,15 @@ public class FrameInmatriculare extends JFrame implements ActionListener {
         this.mainPanel.add(this.panelPrenume);
 
         this.panelDataNastere = new JPanel();
-        this.txtDataNastere = new JTextField(50);
-        this.labelDataNastere =new JLabel("Data Naștere");
+        this.txtDataNastere = createDatePicker();
+        this.labelDataNastere = new JLabel("Data Naștere");
         this.panelDataNastere.add(this.labelDataNastere);
         this.panelDataNastere.add(this.txtDataNastere);
         this.mainPanel.add(this.panelDataNastere);
 
+
         this.panelDataInmatriculare = new JPanel();
-        this.txtDataInmatriculare = new JTextField(50);
+        this.txtDataInmatriculare = createDatePicker();
         this.labelDataInmatriculare = new JLabel("Data Înmatriculare");
         this.panelDataInmatriculare.add(this.labelDataInmatriculare);
         this.panelDataInmatriculare.add(this.txtDataInmatriculare);
