@@ -1,43 +1,78 @@
 package view;
 
-import model.Repository;
-
 import model.RegularExpresion;
-
+import model.Repository;
+import model.Student;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class ButonCautare extends JButton implements Comand {
     private JTextField textNumeText;
     private JLabel labelAfisareStudentCautare;
+    private JComboBox<String> comboBox;
 
     public ButonCautare(JTextField textNumeText, JLabel labelAfisareStudentCautare) {
         super("Cautare Student");
         this.textNumeText = textNumeText;
         this.labelAfisareStudentCautare = labelAfisareStudentCautare;
+
+        // Inițializăm comboBox-ul
+        this.comboBox = new JComboBox<>();
+        this.comboBox.setVisible(false); // Inițial nu este vizibil
     }
 
-   public void execute() {
-       try {
-           String numeFam = this.textNumeText.getText();
-           if (RegularExpresion.RegularExpresionNumePrenume(numeFam) == false) {
-               System.err.println("Formatul numelui de familie este gresit!");
-               return;
-           }
-           for (int i = 0; i < Repository.getInstance().getStudenti().size(); i++) {
-               if (numeFam.equals(Repository.getInstance().getStudenti().get(i).getNumeFamilie())) {
-                   String str1 = Repository.getInstance().getStudenti().get(i).getNumeFamilie();
-                   String str2 = "";
-                   for(String s : Repository.getInstance().getStudenti().get(i).getPrenume()){
-                       str2 = str2 + " ";
-                       str2 += s;
-                   }
-                   this.labelAfisareStudentCautare.setText(str1.concat(str2));
+    public void execute() {
+        try {
+            String numeFamilie = this.textNumeText.getText();
 
-               }
-           }
-       } catch (Exception e) {
-           e.printStackTrace();
-       }
-   }
+
+            if (RegularExpresion.RegularExpresionNumePrenume(numeFamilie) == false) {
+                System.err.println("Formatul numelui de familie este gresit!");
+                return;
+            }
+
+
+            DefaultComboBoxModel<String> model = new DefaultComboBoxModel<>();
+            boolean studentGasit = false;
+
+
+            for (Student student : Repository.getInstance().getStudenti()) {
+                if (student.getNumeFamilie().equalsIgnoreCase(numeFamilie)) {
+                    String numeComplet = student.getNumeFamilie() + " " + String.join(" ", student.getPrenume()) + " " + student.getNrMatricol();
+                    model.addElement(numeComplet);
+                    studentGasit = true;
+                }
+            }
+
+
+            if (!studentGasit) {
+                this.labelAfisareStudentCautare.setText("Nu au fost găsiți studenți cu acest nume.");
+                this.comboBox.setVisible(false);  // Ascundem ComboBox-ul
+                return;
+            }
+
+
+            this.comboBox.setModel(model);
+            this.comboBox.setVisible(true);
+
+
+            this.comboBox.addActionListener(e -> {
+                String selectedItem = (String) comboBox.getSelectedItem();
+                if (selectedItem != null) {
+                    this.labelAfisareStudentCautare.setText("Student selectat: " + selectedItem);
+                }
+            });
+
+
+            if (this.comboBox.getParent() == null) {
+                JPanel comboPanel = new JPanel();
+                comboPanel.add(this.comboBox);
+                this.labelAfisareStudentCautare.getParent().add(comboPanel, BorderLayout.SOUTH);
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
