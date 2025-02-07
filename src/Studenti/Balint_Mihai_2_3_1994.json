@@ -1,7 +1,7 @@
 {
   "Numar Matricol": "CTI024702",
   "Nume": "Balint",
-  "Prenume": "Mihai",
+  "Prenume": ["Mihai"],
   "CNP": "5920302465113",
   "Serie Buletin": "AR",
   "NumarBuletin": "123120",
@@ -60,5 +60,6 @@
   "Student_Alta_Facultate": false,
   "Absolvire_liceu_inainte_an_curent": false,
   "Catgorii_speciale": false,
-  "Program_studii_alta_limba": false
+  "Program_studii_alta_limba": false,
+  "Cale_poza": "D:\\JAVA\\Evidenta Studenti\\Evidenta_Studenti\\src\\Studenti\\Balint_Mihai_2_3_1994.jpg"
 }

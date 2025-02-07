@@ -35,23 +35,47 @@ public class ParsareJSON {
                     Integer.parseInt(dataInmatriculareNode.get("Luna").asText()),
                     Integer.parseInt(dataInmatriculareNode.get("An").asText())
             );
-            return new Student(nume, dataNastere, dataInmatriculare, prenume.toArray(new String[0]));
+            Student s = new Student(nume, dataNastere, dataInmatriculare, prenume.toArray(new String[0]));
+            System.out.println(s);
+            return s;
         } catch (Exception e) {
             e.printStackTrace();
             return null;
         }// end try - catch
-    } // end function
+    } // end function getStudent
+
+    public static ArrayList<Student> extrageStudenti() throws NullPointerException{
+        try {
+            File folder = new File(FOLDER_JSON);
+            ArrayList<Student> studenti = new ArrayList<Student>();
+            if(folder.isDirectory() == true){
+                File[] caleFisiere = folder.listFiles();
+                for(File f : caleFisiere){
+                    String denumireFisier = f.getName();
+                    if(denumireFisier.endsWith(".json")){
+                        Student s = ParsareJSON.getStudent(f.getAbsolutePath());
+                        studenti.add(s);
+                    }
+                }
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            return null;
+        }
+        return null;
+    }
 
     public static void main(String[] args) {
         try {
-            Student student = ParsareJSON.getStudent(FOLDER_JSON);
-
-            if (student != null) {
-                System.out.println("Student creat cu succes!");
-                System.out.println(student);
-            } else {
-                System.out.println("Eroare la parsarea JSON-ului.");
-            }
+//            Student student = ParsareJSON.getStudent(FOLDER_JSON);
+//
+//            if (student != null) {
+//                System.out.println("Student creat cu succes!");
+//                System.out.println(student);
+//            } else {
+//                System.out.println("Eroare la parsarea JSON-ului.");
+//            }
+            ArrayList<Student> s = ParsareJSON.extrageStudenti();
         }catch (Exception e){
             e.printStackTrace();
         }

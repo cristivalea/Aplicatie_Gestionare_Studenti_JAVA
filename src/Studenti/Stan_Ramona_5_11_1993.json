@@ -1,7 +1,7 @@
 {
   "Numar Matricol": "CTI023134",
   "Nume": "Stan",
-  "Prenume": "Ramona",
+  "Prenume": ["Ramona"],
   "CNP": "49311051123002",
   "Serie Buletin": "CJ",
   "NumarBuletin": "901243",
@@ -60,5 +60,6 @@
   "Student_Alta_Facultate": false,
   "Absolvire_liceu_inainte_an_curent": false,
   "Catgorii_speciale": false,
-  "Program_studii_alta_limba": false
+  "Program_studii_alta_limba": false,
+  "Cale_poza": "D:\\JAVA\\Evidenta Studenti\\Evidenta_Studenti\\src\\Studenti\\Stan_Ramona_5_11_1993.jpg"
 }

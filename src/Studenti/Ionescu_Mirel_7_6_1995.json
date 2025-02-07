@@ -1,7 +1,7 @@
 {
   "Numar Matricol": "CTI024871",
   "Nume": "Ionescu",
-  "Prenume": "Mirel",
+  "Prenume": ["Mirel"],
   "CNP": "5950607465332",
   "Serie Buletin": "AR",
   "NumarBuletin": "123143",
@@ -60,5 +60,6 @@
   "Student_Alta_Facultate": false,
   "Absolvire_liceu_inainte_an_curent": false,
   "Catgorii_speciale": false,
-  "Program_studii_alta_limba": false
+  "Program_studii_alta_limba": false,
+  "Cale_poza": "D:\\JAVA\\Evidenta Studenti\\Evidenta_Studenti\\src\\Studenti\\Ionescu_Mirel_7_6_1995.jpg"
 }

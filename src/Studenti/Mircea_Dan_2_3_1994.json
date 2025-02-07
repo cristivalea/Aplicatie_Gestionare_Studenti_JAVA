@@ -1,7 +1,7 @@
 {
   "Numar Matricol": "CTI024456",
   "Nume": "Mircea",
-  "Prenume": "Dan",
+  "Prenume": ["Dan"],
   "CNP": "4940302784325",
   "Serie Buletin": "TM",
   "NumarBuletin": "456789",
@@ -60,5 +60,6 @@
   "Student_Alta_Facultate": false,
   "Absolvire_liceu_inainte_an_curent": false,
   "Catgorii_speciale": false,
-  "Program_studii_alta_limba": false
+  "Program_studii_alta_limba": false,
+  "Cale_poza": "D:\\JAVA\\Evidenta Studenti\\Evidenta_Studenti\\src\\Studenti\\Mircea_Dan_2_3_1994.jpg"
 }
