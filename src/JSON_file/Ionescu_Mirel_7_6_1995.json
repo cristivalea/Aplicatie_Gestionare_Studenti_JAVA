@@ -1,0 +1,64 @@
+{
+  "Numar Matricol": "CTI024871",
+  "Nume": "Ionescu",
+  "Prenume": "Mirel",
+  "CNP": "5950607465332",
+  "Serie Buletin": "AR",
+  "NumarBuletin": "123143",
+  "Adresa": {
+    "Oras": "Arad",
+    "Strada": "Podgoria",
+    "Numar": "4",
+    "Bloc": "5",
+    "Apartament": "13"
+  },
+  "BuletinEliberat": "SPCLEP Arad",
+  "NumeTata": "Ionescu Adrian",
+  "NumeMama": "Balint Andreea",
+  "Data Nastere": {
+    "Zi": "7",
+    "Luna": "6",
+    "An": "1995"
+  },
+  "Data Inmatriculare": {
+    "Zi": "24",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "MediaBAC": "9,95",
+  "MedieMatematica": "9, 80",
+  "MedieFizica": "8,75",
+  "MedieInformatica": "9,50",
+  "Competente": {
+    "OralRomana": "B1",
+    "Digitale": "B2",
+    "LimbaMaterna": "",
+    "LingvisticeEngleza_Franceza":{
+      "IntelegereTextAudiat": "B1",
+      "IntelegereTextCitit": "B1",
+      "MesajeScrise": "B2",
+      "MesajeOrale": "B1",
+      "InteractiuneOrala": "B2"
+    }
+  },
+  "Medie_generala_liceu": "9,40",
+  "NumeLiceu": "Pedagogic",
+  "Recomandare_Medic": "Apt",
+  "Data_eliberare_adeverinta_medicala": {
+    "Zi": "21",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "Suma_insccriere_achitata": "100",
+  "Data_achitare": {
+    "Zi": "21",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "Scutit_de_taxa": false,
+  "Alta_Licenta": false,
+  "Student_Alta_Facultate": false,
+  "Absolvire_liceu_inainte_an_curent": false,
+  "Catgorii_speciale": false,
+  "Program_studii_alta_limba": false
+}

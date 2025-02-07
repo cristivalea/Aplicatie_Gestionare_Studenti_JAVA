@@ -1,0 +1,64 @@
+{
+  "Numar Matricol": "CTI023134",
+  "Nume": "Stan",
+  "Prenume": "Ramona",
+  "CNP": "49311051123002",
+  "Serie Buletin": "CJ",
+  "NumarBuletin": "901243",
+  "Adresa": {
+    "Oras": "Cluj",
+    "Strada": "Marasesti",
+    "Numar": "7",
+    "Bloc": "C1",
+    "Apartament": "1"
+  },
+  "BuletinEliberat": "SPCLEP Cluj",
+  "NumeTata": "Stan Ioan",
+  "NumeMama": "Stan Nicoleta",
+  "Data Nastere": {
+    "Zi": "5",
+    "Luna": "11",
+    "An": "1993"
+  },
+  "Data Inmatriculare": {
+    "Zi": "21",
+    "Luna": "7",
+    "An": "2023"
+  },
+  "MediaBAC": "9,95",
+  "MedieMatematica": "9,76",
+  "MedieFizica": "9,43",
+  "MedieInformatica": "9,87",
+  "Competente": {
+    "OralRomana": "B1",
+    "Digitale": "B2",
+    "LimbaMaterna": "",
+    "LingvisticeEngleza_Franceza":{
+      "IntelegereTextAudiat": "B1",
+      "IntelegereTextCitit": "B1",
+      "MesajeScrise": "B2",
+      "MesajeOrale": "B1",
+      "InteractiuneOrala": "B2"
+    }
+  },
+  "Medie_generala_liceu": "10",
+  "NumeLiceu": "Mihai Viteazul",
+  "Recomandare_Medic": "Apt",
+  "Data_eliberare_adeverinta_medicala": {
+    "Zi": "19",
+    "Luna": "7",
+    "An": "2023"
+  },
+  "Suma_insccriere_achitata": "100",
+  "Data_achitare": {
+    "Zi": "19",
+    "Luna": "7",
+    "An": "2023"
+  },
+  "Scutit_de_taxa": false,
+  "Alta_Licenta": false,
+  "Student_Alta_Facultate": false,
+  "Absolvire_liceu_inainte_an_curent": false,
+  "Catgorii_speciale": false,
+  "Program_studii_alta_limba": false
+}

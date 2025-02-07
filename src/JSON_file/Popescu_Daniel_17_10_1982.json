@@ -1,0 +1,69 @@
+{
+  "Numar Matricol": "CTI022106",
+  "Nume": "Popescu",
+  "Prenume": [
+    "Daniel",
+    "Ionel",
+    "Aurel",
+    "Octavian"
+  ],
+  "CNP": "5821017033657",
+  "Serie Buletin": "TM",
+  "NumarBuletin": "456712",
+  "Adresa": {
+    "Oras": "Timisoara",
+    "Strada": "Liviu Rebreanu",
+    "Numar": "4",
+    "Bloc": "A1",
+    "Apartament": "2"
+  },
+  "BuletinEliberat": "SPCLEP Timis",
+  "NumeTata": "Popescu Mihai",
+  "NumeMama": "Popescu Daniela",
+  "Data Nastere": {
+    "Zi": "17",
+    "Luna": "10",
+    "An": "1982"
+  },
+  "Data Inmatriculare": {
+    "Zi": "18",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "MediaBAC": "8,90",
+  "MedieMatematica": "9,10",
+  "MedieFizica": "9,40",
+  "MedieInformatica": "9,20",
+  "Competente": {
+    "OralRomana": "A1",
+    "Digitale": "B1",
+    "LimbaMaterna": "B1",
+    "LingvisticeEngleza_Franceza":{
+      "IntelegereTextAudiat": "B2",
+      "IntelegereTextCitit": "B1",
+      "MesajeScrise": "A2",
+      "MesajeOrale": "B1",
+      "InteractiuneOrala": "B1"
+    }
+  },
+  "Medie_generala_liceu": "9,60",
+  "NumeLiceu": "C.D Loga",
+  "Recomandare_Medic": "Apt",
+  "Data_eliberare_adeverinta_medicala": {
+    "Zi": "16",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "Suma_insccriere_achitata": "100",
+  "Data_achitare": {
+    "Zi": "16",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "Scutit_de_taxa": false,
+  "Alta_Licenta": false,
+  "Student_Alta_Facultate": false,
+  "Absolvire_liceu_inainte_an_curent": true,
+  "Catgorii_speciale": false,
+  "Program_studii_alta_limba": true
+}

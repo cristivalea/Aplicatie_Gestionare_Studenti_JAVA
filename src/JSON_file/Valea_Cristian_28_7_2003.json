@@ -1,0 +1,67 @@
+{
+  "Numar Matricol": "CTI022993",
+  "Nume": "Valea",
+  "Prenume": [
+    "Cristian",
+    "Valentin"
+  ],
+  "CNP": "5030728022981",
+  "Serie Buletin": "AR",
+  "NumarBuletin": "001785",
+  "Adresa": {
+    "Oras": "Sebis",
+    "Strada": "Victoriei",
+    "Numar": "2",
+    "Bloc": "C1",
+    "Apartament": "11"
+  },
+  "BuletinEliberat": "SPCLEP Sebis",
+  "NumeTata": "Valea Valentin",
+  "NumeMama": "Valea Corina",
+  "Data Nastere": {
+    "Zi": "28",
+    "Luna": "7",
+    "An": "2003"
+  },
+  "Data Inmatriculare": {
+    "Zi": "15",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "MediaBAC": "9,38",
+  "MedieMatematica": "10",
+  "MedieFizica": "10",
+  "MedieInformatica": "9",
+  "Competente": {
+    "OralRomana": "B1",
+    "Digitale": "B2",
+    "LimbaMaterna": "",
+    "LingvisticeEngleza_Franceza":{
+      "IntelegereTextAudiat": "B1",
+      "IntelegereTextCitit": "B1",
+      "MesajeScrise": "B2",
+      "MesajeOrale": "B1",
+      "InteractiuneOrala": "B2"
+    }
+  },
+  "Medie_generala_liceu": "9,95",
+  "NumeLiceu": "Liceul Teoretic Sebis",
+  "Recomandare_Medic": "Apt",
+  "Data_eliberare_adeverinta_medicala": {
+    "Zi": "13",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "Suma_insccriere_achitata": "100",
+  "Data_achitare": {
+    "Zi": "13",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "Scutit_de_taxa": false,
+  "Alta_Licenta": false,
+  "Student_Alta_Facultate": false,
+  "Absolvire_liceu_inainte_an_curent": false,
+  "Catgorii_speciale": false,
+  "Program_studii_alta_limba": false
+}

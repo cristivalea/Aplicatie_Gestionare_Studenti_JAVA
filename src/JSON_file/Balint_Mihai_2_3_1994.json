@@ -1,0 +1,64 @@
+{
+  "Numar Matricol": "CTI024702",
+  "Nume": "Balint",
+  "Prenume": "Mihai",
+  "CNP": "5920302465113",
+  "Serie Buletin": "AR",
+  "NumarBuletin": "123120",
+  "Adresa": {
+    "Oras": "Arad",
+    "Strada": "Siriei",
+    "Numar": "8",
+    "Bloc": "10",
+    "Apartament": "1"
+  },
+  "BuletinEliberat": "SPCLEP Arad",
+  "NumeTata": "Balint Aurel",
+  "NumeMama": "Balint Diana",
+  "Data Nastere": {
+    "Zi": "2",
+    "Luna": "3",
+    "An": "1992"
+  },
+  "Data Inmatriculare": {
+    "Zi": "21",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "MediaBAC": "8,70",
+  "MedieMatematica": "9",
+  "MedieFizica": "8,75",
+  "MedieInformatica": "9,50",
+  "Competente": {
+    "OralRomana": "B1",
+    "Digitale": "B2",
+    "LimbaMaterna": "",
+    "LingvisticeEngleza_Franceza":{
+      "IntelegereTextAudiat": "B1",
+      "IntelegereTextCitit": "B1",
+      "MesajeScrise": "B2",
+      "MesajeOrale": "B1",
+      "InteractiuneOrala": "B2"
+    }
+  },
+  "Medie_generala_liceu": "9,40",
+  "NumeLiceu": "Moise Nicoara",
+  "Recomandare_Medic": "Apt",
+  "Data_eliberare_adeverinta_medicala": {
+    "Zi": "21",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "Suma_insccriere_achitata": "100",
+  "Data_achitare": {
+    "Zi": "21",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "Scutit_de_taxa": false,
+  "Alta_Licenta": false,
+  "Student_Alta_Facultate": false,
+  "Absolvire_liceu_inainte_an_curent": false,
+  "Catgorii_speciale": false,
+  "Program_studii_alta_limba": false
+}

@@ -1,0 +1,69 @@
+{
+  "Numar Matricol": "CTI022109",
+  "Nume": "Popescu",
+  "Prenume": [
+    "Daniel",
+    "Ionel",
+    "Aurel",
+    "Octavian"
+  ],
+  "CNP": "5830803123567",
+  "Serie Buletin": "CJ",
+  "NumarBuletin": "654312",
+  "Adresa": {
+    "Oras": "Cluj",
+    "Strada": "Marasesti",
+    "Numar": "12",
+    "Bloc": "C3",
+    "Apartament": "10"
+  },
+  "BuletinEliberat": "SPCLEP Cluj",
+  "NumeTata": "Popescu Mircea",
+  "NumeMama": "Ionescu Mara",
+  "Data Nastere": {
+    "Zi": "3",
+    "Luna": "8",
+    "An": "1983"
+  },
+  "Data Inmatriculare": {
+    "Zi": "17",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "MediaBAC": "9,10",
+  "MedieMatematica": "9,20",
+  "MedieFizica": "9,15",
+  "MedieInformatica": "9,78",
+  "Competente": {
+    "OralRomana": "A2",
+    "Digitale": "B2",
+    "LimbaMaterna": "A1",
+    "LingvisticeEngleza_Franceza":{
+      "IntelegereTextAudiat": "A2",
+      "IntelegereTextCitit": "B1",
+      "MesajeScrise": "A1",
+      "MesajeOrale": "B1",
+      "InteractiuneOrala": "B2"
+    }
+  },
+  "Medie_generala_liceu": "9,54",
+  "NumeLiceu": "C.D Loga",
+  "Recomandare_Medic": "Apt",
+  "Data_eliberare_adeverinta_medicala": {
+    "Zi": "15",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "Suma_insccriere_achitata": "100",
+  "Data_achitare": {
+    "Zi": "15",
+    "Luna": "7",
+    "An": "2022"
+  },
+  "Scutit_de_taxa": false,
+  "Alta_Licenta": false,
+  "Student_Alta_Facultate": false,
+  "Absolvire_liceu_inainte_an_curent": false,
+  "Catgorii_speciale": false,
+  "Program_studii_alta_limba": false
+}

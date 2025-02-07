@@ -1,0 +1,67 @@
+{
+  "Numar Matricol": "CTI023978",
+  "Nume": "Balint",
+  "Prenume": [
+    "Ioana",
+    "Maria"
+  ],
+  "CNP": "4870404784089",
+  "Serie Buletin": "TM",
+  "NumarBuletin": "010023",
+  "Adresa": {
+    "Oras": "Timisoara",
+    "Strada": "Linistei",
+    "Numar": "18",
+    "Bloc": "10",
+    "Apartament": "1"
+  },
+  "BuletinEliberat": "SPCLEP Timis",
+  "NumeTata": "Balint Bogdan",
+  "NumeMama": "Balint Carla",
+  "Data Nastere": {
+    "Zi": "4",
+    "Luna": "4",
+    "An": "1987"
+  },
+  "Data Inmatriculare": {
+    "Zi": "12",
+    "Luna": "7",
+    "An": "2023"
+  },
+  "MediaBAC": "8,70",
+  "MedieMatematica": "9",
+  "MedieFizica": "8,75",
+  "MedieInformatica": "9,50",
+  "Competente": {
+    "OralRomana": "B1",
+    "Digitale": "B2",
+    "LimbaMaterna": "",
+    "LingvisticeEngleza_Franceza":{
+      "IntelegereTextAudiat": "B1",
+      "IntelegereTextCitit": "B1",
+      "MesajeScrise": "B2",
+      "MesajeOrale": "B1",
+      "InteractiuneOrala": "B2"
+    }
+  },
+  "Medie_generala_liceu": "9,40",
+  "NumeLiceu": "C.D Loga",
+  "Recomandare_Medic": "Apt",
+  "Data_eliberare_adeverinta_medicala": {
+    "Zi": "21",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "Suma_insccriere_achitata": "100",
+  "Data_achitare": {
+    "Zi": "21",
+    "Luna": "8",
+    "An": "2024"
+  },
+  "Scutit_de_taxa": false,
+  "Alta_Licenta": false,
+  "Student_Alta_Facultate": false,
+  "Absolvire_liceu_inainte_an_curent": false,
+  "Catgorii_speciale": false,
+  "Program_studii_alta_limba": false
+}

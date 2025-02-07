@@ -1,0 +1,69 @@
+ {
+    "Numar Matricol": "CTI022105",
+    "Nume": "Popescu",
+    "Prenume": [
+      "Daniel",
+      "Ionel",
+      "Aurel",
+      "Octavian"
+    ],
+    "CNP": "5831104022754",
+    "Serie Buletin": "AS",
+    "NumarBuletin": "018976",
+    "Adresa": {
+      "Oras": "Bucuresti",
+      "Strada": "Unirii",
+      "Numar": "12",
+      "Bloc": "B2",
+      "Apartament": "4"
+    },
+    "BuletinEliberat": "SPCLEP Bucuresti",
+    "NumeTata": "Popescu Matei",
+    "NumeMama": "Popescu Maria",
+    "Data Nastere": {
+      "Zi": "4",
+      "Luna": "11",
+      "An": "1983"
+    },
+    "Data Inmatriculare": {
+      "Zi": "17",
+      "Luna": "7",
+      "An": "2022"
+    },
+    "MediaBAC": "9,31",
+    "MedieMatematica": "9,80",
+    "MedieFizica": "9,20",
+    "MedieInformatica": "9,50",
+    "Competente": {
+      "OralRomana": "A2",
+      "Digitale": "B2",
+      "LimbaMaterna": "",
+      "LingvisticeEngleza_Franceza":{
+        "IntelegereTextAudiat": "B1",
+        "IntelegereTextCitit": "B2",
+        "MesajeScrise": "A2",
+        "MesajeOrale": "B1",
+        "InteractiuneOrala": "B1"
+      }
+    },
+    "Medie_generala_liceu": "9,85",
+    "NumeLiceu": "Colegiul National Sfantul Sava",
+    "Recomandare_Medic": "Apt",
+    "Data_eliberare_adeverinta_medicala": {
+      "Zi": "15",
+      "Luna": "7",
+      "An": "2022"
+    },
+    "Suma_insccriere_achitata": "100",
+    "Data_achitare": {
+      "Zi": "15",
+      "Luna": "7",
+      "An": "2022"
+    },
+    "Scutit_de_taxa": false,
+    "Alta_Licenta": false,
+    "Student_Alta_Facultate": false,
+    "Absolvire_liceu_inainte_an_curent": false,
+    "Catgorii_speciale": false,
+    "Program_studii_alta_limba": false
+ }
