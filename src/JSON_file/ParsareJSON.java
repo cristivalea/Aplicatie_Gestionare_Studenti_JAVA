@@ -35,7 +35,9 @@ public class ParsareJSON {
                     Integer.parseInt(dataInmatriculareNode.get("Luna").asText()),
                     Integer.parseInt(dataInmatriculareNode.get("An").asText())
             );
+            String calePoza = root.get("Cale_poza").asText();
             Student s = new Student(nume, dataNastere, dataInmatriculare, prenume.toArray(new String[0]));
+            s.setCale_poza(calePoza);
             System.out.println(s);
             return s;
         } catch (Exception e) {

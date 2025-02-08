@@ -18,8 +18,13 @@ public class Student {
    private Data dataInmatriculare;
    private ArrayList<Nota> note = new ArrayList<Nota>();
    private int varta;
+   private String cale_poza;
 
-   private static ArrayList<Triplet<String, ArrayList<String>, Data>> lista = new ArrayList<Triplet<String, ArrayList<String>, Data>>();
+    public void setCale_poza(String cale_poza) {
+        this.cale_poza = cale_poza;
+    }
+
+    private static ArrayList<Triplet<String, ArrayList<String>, Data>> lista = new ArrayList<Triplet<String, ArrayList<String>, Data>>();
    public static ArrayList<String> listaNrMatricole = new ArrayList<String>();
 
    public Student(String nrMat, String numeFam, Data dataN, Data dataInm, String ...prenume) throws Exception{
