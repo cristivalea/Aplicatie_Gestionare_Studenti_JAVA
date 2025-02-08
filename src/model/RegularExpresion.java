@@ -35,4 +35,12 @@ public class RegularExpresion {
         boolean matchFound = matcher.find();
         return matchFound;
     }
+
+    public static boolean RegularExpresionLinieNotaCalificativ(String linie){
+        linie = linie.trim();
+        Pattern pattern = Pattern.compile("[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
+        Matcher matcher = pattern.matcher(linie);
+        boolean matcherFound = matcher.find();
+        return matcherFound;
+    }
 }
