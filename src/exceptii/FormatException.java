@@ -12,6 +12,8 @@ public class FormatException extends Exception{
     public static final int NUME_PRENUME_FORMAT = 3;
     public static final int STUDENT_LINIE_FORMAT = 4;
     public static final int FORMAT_LINIE_NOTA_CALIFICATIV = 5;
+
+
     Map<Integer, String> map = new HashMap<Integer, String>();
     {
         map.put(DATA_FORMAT, "[123]?\\d\\/[1]?\\d\\/\\d{4}");
@@ -21,11 +23,20 @@ public class FormatException extends Exception{
         map.put(FORMAT_LINIE_NOTA_CALIFICATIV, "[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
     }
 
+    /**
+     *
+     * @param s
+     * @param c
+     */
     public FormatException(String s, int c){
         this.str = s;
         this.cod = c;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getMessage(){
         return map.get(this.cod);
     }

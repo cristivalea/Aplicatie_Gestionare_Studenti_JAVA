@@ -14,6 +14,14 @@ import java.util.ArrayList;
 public class ParsareJSON {
     private static final String FOLDER_JSON = "D:\\JAVA\\Evidenta Studenti\\Evidenta_Studenti\\src\\Studenti";
 
+    /**
+     *
+     * @param fileName
+     * @return
+     * @throws ParserConfigurationException
+     * @throws SAXException
+     * @throws IOException
+     */
     public static Student getStudent(String fileName) throws ParserConfigurationException, SAXException, IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
@@ -46,6 +54,11 @@ public class ParsareJSON {
         }// end try - catch
     } // end function getStudent
 
+    /**
+     *
+     * @return
+     * @throws NullPointerException
+     */
     public static ArrayList<Student> extrageStudenti() throws NullPointerException{
         try {
             File folder = new File(FOLDER_JSON);

@@ -10,6 +10,9 @@ import java.util.TreeSet;
 
 public class CautareDupaNumePrenumeDataNastere implements Comand{
 
+    /**
+     *
+     */
     public void execute(){
         boolean c1 = true;
         boolean c2 = true;

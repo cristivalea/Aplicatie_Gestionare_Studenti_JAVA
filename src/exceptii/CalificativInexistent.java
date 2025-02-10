@@ -11,10 +11,18 @@ public class CalificativInexistent extends Exception implements ExceptionInterfa
         this.calificativ = calificativ;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getMessage(){
         return "Calificativul nu exista" + this.calificativ;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getValue(){
         return this.calificativ;
     }

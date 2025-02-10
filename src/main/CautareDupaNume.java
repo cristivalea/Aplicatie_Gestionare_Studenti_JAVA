@@ -5,7 +5,11 @@ import model.Repository;
 
 import java.util.Scanner;
 
+
 public class CautareDupaNume implements Comand{
+    /**
+     *
+     */
     public void execute(){
         try {
             Scanner scanner = new Scanner(System.in);

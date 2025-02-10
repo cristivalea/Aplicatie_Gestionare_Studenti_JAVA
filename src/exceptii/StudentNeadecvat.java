@@ -20,15 +20,30 @@ public class StudentNeadecvat extends Exception{
         map.put(DATA_NASTERE_INADECVATA,"model.Data basterii nu poate fi mai mica decat data inmatricularii");
     }
 
+    /**
+     *
+     * @param c
+     * @param s
+     */
     public StudentNeadecvat(int c, String s){
         this.cod = c;
         this.stud = s;
     }
+
+    /**
+     *
+     * @return
+     */
     public String getMessage(){
 
         return map.get(this.cod);
     }
 
+    /**
+     *
+     * @param cod
+     * @return
+     */
     public boolean hasErrorCode(int cod){
 
         return map.containsKey(cod);

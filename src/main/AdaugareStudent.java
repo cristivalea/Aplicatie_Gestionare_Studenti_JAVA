@@ -11,9 +11,10 @@ import java.util.Vector;
 
 public class AdaugareStudent implements Comand {
 
+    /**
+     *
+     */
     public void execute(){
-        // Citira datelor despre student
-        //Citire nume familie
         Scanner input = new Scanner(System.in);
         String numeFam = null;
         do{
@@ -22,7 +23,6 @@ public class AdaugareStudent implements Comand {
             numeFam = numeFam.trim();
         }while(!RegularExpresion.RegularExpresionNumePrenume(numeFam));
 
-        //Citire vector de prenume
         Vector<String> prenumeStud = new Vector<String>();
         System.out.println("Introduceti numarul de prenume ale studentului: ");
         int nr = input.nextInt();
@@ -37,12 +37,11 @@ public class AdaugareStudent implements Comand {
         String[] v = new String[prenumeStud.size()];
         prenumeStud.copyInto(v);
 
-        //Citire data nasterii
+
         Data dataNastere = null;
         Data dataInmatriculare = null;
         Exception e = null;
-        //do{
-            // Citire data nasterii
+
             do{
                 try {
                     System.out.println("Introduceti data nasterii");
@@ -61,7 +60,7 @@ public class AdaugareStudent implements Comand {
                 }
             }while ((e != null));
 
-            //Citire data inmatricularii
+
             e = null;
             do{
                 try{
@@ -82,7 +81,7 @@ public class AdaugareStudent implements Comand {
             }while (e != null);
         //}while (dataInmatriculare.diferenta(dataNastere) > (18 * 365));
 
-        //Creare student
+
         Student student = null;
         try{
             Main2.logger.info("Crearea studentului");
