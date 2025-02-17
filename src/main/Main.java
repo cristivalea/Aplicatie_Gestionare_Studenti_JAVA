@@ -20,6 +20,12 @@ public class Main {
         System.out.println("8 - Modificare Nume");
         System.out.println("9 - Modificare Prenume");
         System.out.println("10 - Modificare Data Nasterii");
+        System.out.println("11 - Adaugare nota");
+        System.out.println("12 - Cautarea notelor unui student");
+        System.out.println("13 - Cautarea notelor de la o disciplina");
+        System.out.println("14 - Cautarea notelor de la un examen"); // disciplina si data examenului
+        System.out.println("15 - Modificarea unei note");
+        System.out.println("16 - Stergerea unei note");
         System.out.println("Optiunea aleasa: ");
         Scanner scanner = new Scanner(System.in);
         int optiune = scanner.nextInt();

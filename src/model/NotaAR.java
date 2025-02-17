@@ -20,9 +20,9 @@ public class NotaAR extends Nota{
 
     //C;CTI022105;100;FOARTE BINE;26/6/2024
     public NotaAR(String linie) throws Exception{
-        super();
+//        super();
 //        if(!RegularExpresion.RegularExpresionLinieNotaCalificativ(linie)){
-//            FormatInadecvatLinieNotaCalificativ inadecvat = new FormatInadecvatLinieNotaCalificativ(linie, "[A]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
+//            FormatInadecvatLinieNotaCalificativ inadecvat = new FormatInadecvatLinieNotaCalificativ(linie, "[A]\\;[A-Z]{3}\\d{3}[1-9]\\d{3}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
 //            throw inadecvat;
 //        }
         Scanner scanner =  new Scanner(linie);
@@ -49,7 +49,7 @@ public class NotaAR extends Nota{
         this.promovat = isPromovat();
     }
 
-    public NotaAR(String codStudent, int codDisciplina, Data dataExamne, String calificativ) {
+    public NotaAR(String codStudent, int codDisciplina, Data dataExamne, String calificativ) throws Exception{
         super(codStudent, codDisciplina, dataExamne);
         this.codStudent = codStudent;
         this.codDisciplina = codDisciplina;

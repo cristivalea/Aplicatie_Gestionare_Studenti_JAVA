@@ -23,17 +23,17 @@ public class Repository {
         Main2.logger.info("****************Incarcare discipline**************");
         loadDiscipline();
         //incarcare note
-        Main2.logger.info("*****************Incarcare Note********************");
-        loadNote();
-        for(Nota n:note) {
-         for(Disciplina d:discipline)
-            if(d.getCodDisciplina()==n.getCodDisciplina()) {
-                n.setDisciplina(d);
-//                n.setPromovat(n.isPromovat());
-//                n.setNotaFinala();
-                break;
-            }
-        }
+//        Main2.logger.info("*****************Incarcare Note********************");
+//        loadNote();
+//        for(Nota n:note) {
+//         for(Disciplina d:discipline)
+//            if(d.getCodDisciplina()==n.getCodDisciplina()) {
+//                n.setDisciplina(d);
+////                n.setPromovat(n.isPromovat());
+////                n.setNotaFinala();
+//                break;
+//            }
+  //      }
         //incarcare studenti
         Main2.logger.info("******************Incarcare Studenti******************");
         loadStudenti();
@@ -83,13 +83,13 @@ public class Repository {
             discipline.add(new Disciplina(scanner.nextLine()));
         scanner.close(); }
 
-    private void loadNote() throws Exception{
-        File f=new File(Files.FILE_NOTE);
-        Scanner scanner=new Scanner(f);
-        while(scanner.hasNext())
-           // note.add(new Nota(scanner.nextLine()));
-        scanner.close();
-    }
+//    private void loadNote() throws Exception{
+//        File f=new File(Files.FILE_NOTE);
+//        Scanner scanner=new Scanner(f);
+//        while(scanner.hasNext())
+//           // note.add(new Nota(scanner.nextLine()));
+//        scanner.close();
+//    }
 
     private void loadStudenti() throws Exception{
         File f=new File(Files.FILE_STUDENTI);

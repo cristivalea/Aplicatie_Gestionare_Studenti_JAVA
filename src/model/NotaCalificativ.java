@@ -69,7 +69,7 @@ public class NotaCalificativ extends Nota{
      * @param dataExamne
      * @param calificativ
      */
-    public NotaCalificativ(String registrationCode, int codDisciplina, Data dataExamne, String calificativ) {
+    public NotaCalificativ(String registrationCode, int codDisciplina, Data dataExamne, String calificativ) throws Exception{
         super(registrationCode, codDisciplina, dataExamne);
         this.codStudent = registrationCode;
         this.codDisciplina = codDisciplina;

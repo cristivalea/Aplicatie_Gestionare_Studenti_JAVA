@@ -51,4 +51,12 @@ public class RegularExpresion {
         boolean matcherFound = matcher.find();
         return matcherFound;
     }
+
+    public static boolean RegularExpresionLinieNotaNumerica(String linie){
+        linie = linie.trim();
+        Pattern pattern = Pattern.compile("[N]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2}\\;([1-9][0]?\\;){4}([0](\\,\\d)\\;?){4}[1-3]?\\d\\/[1-9]?[1-2]?\\/\\d{4}");
+        Matcher matcher = pattern.matcher(linie);
+        boolean matcherFound = matcher.find();
+        return matcherFound;
+    }
 }

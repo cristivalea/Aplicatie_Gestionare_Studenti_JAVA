@@ -1,5 +1,6 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.Optional;
 
 public abstract class Nota {
@@ -16,9 +17,23 @@ public abstract class Nota {
      * @param codD
      * @param dataE
      */
-    public Nota(String codS, int codD, Data dataE){
+    public Nota(String codS, int codD, Data dataE) throws Exception{
         this.codStudent = codS;
+        ArrayList<Student> listaStudenti = Repository.getInstance().getStudenti();
+        for(Student s : listaStudenti){
+            if(s.getNrMatricol().equals(codS)){
+                this.student = s;
+                break;
+            }
+        }
         this.codDisciplina = codD;
+        ArrayList<Disciplina> listaDiscipline = Repository.getInstance().getDiscipline();
+        for(Disciplina d : listaDiscipline){
+            if(d.getCodDisciplina() == codD){
+                this.disciplina = d;
+                break;
+            }
+        }
         this.dataExamen = dataE;
     }
 

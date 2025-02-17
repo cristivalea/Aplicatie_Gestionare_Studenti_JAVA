@@ -1,7 +1,9 @@
 package teste;
 
+import model.Disciplina;
 import model.NotaAR;
 import model.NotaCalificativ;
+import model.NotaNumerica;
 
 public class MainNota {
     public static void main(String[] args){
@@ -20,6 +22,9 @@ public class MainNota {
             NotaAR nar2 = new NotaAR("A;CTI022115;110;RESPINS;26/6/2024");
             System.out.println(nar1);
             System.out.println(nar2);
+            Disciplina d = new Disciplina("103;Programarea calculatoarelor;0,5;0,5;0;0;0;0;0;0;6");
+            NotaNumerica nn = new NotaNumerica("N;CTI022106;103;9;8;7;6;0,6;0,7;0,5;0,4;26/6/2024");
+            System.out.println(nn);
         }catch (Exception e){
             e.printStackTrace();
         }
