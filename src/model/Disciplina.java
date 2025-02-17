@@ -11,6 +11,8 @@ public class Disciplina {
     private String numeDisciplina;
     private double coefExamne;
     private double coefLab;
+
+    private double coefSeminar;
     private double coefProiect;
     private double coefPrezentaCurs;
     private double coefPrezentaLab;
@@ -20,12 +22,13 @@ public class Disciplina {
     private FisaDisciplinei fisaDisciplinei;
     private static ArrayList<Short> coduriExistente = new ArrayList<Short>();
 
-    public Disciplina(short codD, String numeD, double coefE, double coefL, double coefP, double coefPC, double coefPL, double coefPS, double coefPP, short nrC) {
+    public Disciplina(short codD, String numeD, double coefE, double coefL, double coefP, double coefS, double coefPC, double coefPL, double coefPS, double coefPP, short nrC) {
         this.codDisciplina = codD;
         this.numeDisciplina = numeD;
         this.coefExamne = coefE;
         this.coefLab = coefL;
         this.coefProiect = coefP;
+        this.coefSeminar = coefS;
         this.coefPrezentaCurs = coefPC;
         this.coefPrezentaLab = coefPL;
         this.coefPrezentaSeminar = coefPS;
@@ -43,6 +46,8 @@ public class Disciplina {
         this.coefExamne = coefEx;
         double coefL = scanner.nextDouble();
         this.coefLab = coefL;
+        double coefSeminar = scanner.nextDouble();
+        this.coefSeminar = coefSeminar;
         double coefP = scanner.nextDouble();
         this.coefProiect = coefP;
         double coefPrezC = scanner.nextDouble();
@@ -101,6 +106,10 @@ public class Disciplina {
         this.coefPrezentaSeminar = coefPS;
         this.coefPrezentaProiect = coefPS;
         this.nrCredite = nrC;
+    }
+
+    public double getCoefSeminar() {
+        return coefSeminar;
     }
 
     public static void addCoduri(short nouCod){

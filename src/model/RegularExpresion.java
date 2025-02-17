@@ -38,7 +38,15 @@ public class RegularExpresion {
 
     public static boolean RegularExpresionLinieNotaCalificativ(String linie){
         linie = linie.trim();
-        Pattern pattern = Pattern.compile("[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
+        Pattern pattern = Pattern.compile("[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
+        Matcher matcher = pattern.matcher(linie);
+        boolean matcherFound = matcher.find();
+        return matcherFound;
+    }
+
+    public static boolean RegularExpresionLinieNotaAR(String linie){
+        linie = linie.trim();
+        Pattern pattern = Pattern.compile("[A]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
         Matcher matcher = pattern.matcher(linie);
         boolean matcherFound = matcher.find();
         return matcherFound;

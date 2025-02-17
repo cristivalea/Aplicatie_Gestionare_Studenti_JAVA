@@ -34,7 +34,7 @@ public class NotaCalificativ extends Nota{
     public NotaCalificativ(String linie) throws Exception{
         super();
         if(!RegularExpresion.RegularExpresionLinieNotaCalificativ(linie)){
-            FormatInadecvatLinieNotaCalificativ inadecvat = new FormatInadecvatLinieNotaCalificativ(linie, "[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
+            FormatInadecvatLinieNotaCalificativ inadecvat = new FormatInadecvatLinieNotaCalificativ(linie, "[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
             throw inadecvat;
         }
         Scanner scanner = new Scanner(linie);
@@ -59,7 +59,7 @@ public class NotaCalificativ extends Nota{
        this.codDisciplina = cod_disciplina;
        this.dataExamen = d;
        this.valoarea = calificativ;
-
+       this.promovat = isPromovat();
     }
 
     /**
@@ -69,7 +69,7 @@ public class NotaCalificativ extends Nota{
      * @param dataExamne
      * @param calificativ
      */
-    public NotaCalificativ(String registrationCode, int codDisciplina, Data dataExamne, String calificativ){
+    public NotaCalificativ(String registrationCode, int codDisciplina, Data dataExamne, String calificativ) {
         super(registrationCode, codDisciplina, dataExamne);
         this.codStudent = registrationCode;
         this.codDisciplina = codDisciplina;
@@ -104,6 +104,7 @@ public class NotaCalificativ extends Nota{
                 + (codStudent != null ? "cod student= " + codStudent + ",": "")
                 + "cod disciplina= " + codDisciplina + ", "
                 + (dataExamen != null ? "data examen= " + dataExamen + ",": "")
+                + (this.getNotaFinala() != null ? "nota finala= " + this.getNotaFinala().get() + ",":"")
                 + "promovat= " + promovat
                 +"]";
     }

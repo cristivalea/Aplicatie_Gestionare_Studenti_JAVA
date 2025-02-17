@@ -1,7 +1,6 @@
 package model;
 
 import XMLProcess.ProcesareFisaDisciplinei;
-import main.Main;
 import main.Predicates;
 import teste.Main2;
 import view.Observer;
@@ -30,8 +29,8 @@ public class Repository {
          for(Disciplina d:discipline)
             if(d.getCodDisciplina()==n.getCodDisciplina()) {
                 n.setDisciplina(d);
-                n.setPromovat(n.isPromovat());
-                n.setNotaFinala();
+//                n.setPromovat(n.isPromovat());
+//                n.setNotaFinala();
                 break;
             }
         }
@@ -88,7 +87,7 @@ public class Repository {
         File f=new File(Files.FILE_NOTE);
         Scanner scanner=new Scanner(f);
         while(scanner.hasNext())
-            note.add(new Nota(scanner.nextLine()));
+           // note.add(new Nota(scanner.nextLine()));
         scanner.close();
     }
 
