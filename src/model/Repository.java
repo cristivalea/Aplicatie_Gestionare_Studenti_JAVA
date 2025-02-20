@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Repository {
     private static ArrayList<Disciplina> discipline=new ArrayList<Disciplina>();
     private static ArrayList<Student> studenti=new ArrayList<Student>();
-    private static ArrayList<Nota> note=new ArrayList<Nota>();
+    public static ArrayList<Nota> note=new ArrayList<Nota>();
     private ArrayList<Observer> observatori = new ArrayList<Observer>();
     private static Repository instance=null;
     private Repository() throws Exception
@@ -23,17 +23,17 @@ public class Repository {
         Main2.logger.info("****************Incarcare discipline**************");
         loadDiscipline();
         //incarcare note
-//        Main2.logger.info("*****************Incarcare Note********************");
-//        loadNote();
-//        for(Nota n:note) {
-//         for(Disciplina d:discipline)
-//            if(d.getCodDisciplina()==n.getCodDisciplina()) {
-//                n.setDisciplina(d);
-////                n.setPromovat(n.isPromovat());
-////                n.setNotaFinala();
-//                break;
-//            }
-  //      }
+        Main2.logger.info("*****************Incarcare Note********************");
+        loadNote();
+        for(Nota n:note) {
+         for(Disciplina d:discipline)
+            if(d.getCodDisciplina()==n.getCodDisciplina()) {
+                n.setDisciplina(d);
+                n.setPromovat(n.isPromovat());
+                n.setNotaFinala();
+                break;
+            }
+        }
         //incarcare studenti
         Main2.logger.info("******************Incarcare Studenti******************");
         loadStudenti();
@@ -83,13 +83,29 @@ public class Repository {
             discipline.add(new Disciplina(scanner.nextLine()));
         scanner.close(); }
 
-//    private void loadNote() throws Exception{
-//        File f=new File(Files.FILE_NOTE);
-//        Scanner scanner=new Scanner(f);
-//        while(scanner.hasNext())
-//           // note.add(new Nota(scanner.nextLine()));
-//        scanner.close();
-//    }
+    public static void loadNote() throws Exception{
+        File f=new File(Files.FILE_NOTE);
+        Scanner scanner=new Scanner(f);
+        while(scanner.hasNext()) {
+            String linie = scanner.nextLine().trim();
+            char caracter = linie.charAt(0);
+            switch (caracter){
+                case 'N':{
+                    note.add(new NotaNumerica(linie));
+                    break;
+                }
+                case 'C':{
+                    note.add(new NotaCalificativ(linie));
+                    break;
+                }
+                case 'A':{
+                    note.add(new NotaAR(linie));
+                    break;
+                }
+            }
+        }
+        scanner.close();
+    }
 
     private void loadStudenti() throws Exception{
         File f=new File(Files.FILE_STUDENTI);

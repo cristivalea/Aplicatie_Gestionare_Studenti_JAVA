@@ -1,12 +1,9 @@
 package teste;
 
-import model.Disciplina;
-import model.NotaAR;
-import model.NotaCalificativ;
-import model.NotaNumerica;
+import model.*;
 
 public class MainNota {
-    public static void main(String[] args){
+    public static void main1(String[] args){
         try {
             NotaCalificativ nc1 = new NotaCalificativ("C;CTI022105;100;FOARTE BINE;26/6/2024");
             NotaCalificativ nc2 = new NotaCalificativ("C;CTI022106;101;BINE;26/6/2024");
@@ -28,5 +25,15 @@ public class MainNota {
         }catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args){
+        try {
+            Repository.loadNote();
+            System.out.println(Repository.note);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
     }
 }

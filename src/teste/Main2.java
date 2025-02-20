@@ -36,8 +36,8 @@ public class Main2 {
         } catch (IOException e) {
              e.printStackTrace();
         }
-       System.out.println(Repository.getInstance().getStudenti());
-       Student s2 = new Student("CTI022345;Mihai;Ion Nicu;21/3/1978;23/7/2021");
-       Repository.getInstance().adaugaStudent(s2);
+       //System.out.println(Repository.getInstance().getStudenti());
+       //Student s2 = new Student("CTI022345;Mihai;Ion Nicu;21/3/1978;23/7/2021");
+      // Repository.getInstance().adaugaStudent(s2);
     }
 }

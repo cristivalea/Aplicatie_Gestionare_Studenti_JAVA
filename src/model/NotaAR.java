@@ -17,6 +17,7 @@ public class NotaAR extends Nota{
         noteAR.add(RESPINS);
     }
     protected String valoare = "RESPINS";
+    private String calificativ = "";
 
     //C;CTI022105;100;FOARTE BINE;26/6/2024
     public NotaAR(String linie) throws Exception{
@@ -45,6 +46,7 @@ public class NotaAR extends Nota{
         this.codStudent = codStudent;
         this.codDisciplina = cod_Disciplina;
         this.dataExamen = d;
+        this.calificativ = calificativ;
         this.valoare = calificativ;
         this.promovat = isPromovat();
     }
@@ -54,6 +56,7 @@ public class NotaAR extends Nota{
         this.codStudent = codStudent;
         this.codDisciplina = codDisciplina;
         this.dataExamen = dataExamne;
+        this.calificativ = calificativ;
         this.valoare = calificativ;
     }
 
@@ -75,5 +78,9 @@ public class NotaAR extends Nota{
                 + "promovat= " + this.promovat + " "
                 + (this.getNotaFinala() != null ? "nota finala= " + this.getNotaFinala().get() + ",":"")
                 + " ]";
+    }
+
+    public void setNotaFinala(){
+        this.valoare = calificativ;
     }
 }

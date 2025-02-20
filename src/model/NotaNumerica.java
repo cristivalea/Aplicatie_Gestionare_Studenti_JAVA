@@ -2,7 +2,6 @@ package model;
 
 import teste.Main2;
 
-import java.util.ArrayList;
 import java.util.Optional;
 import java.util.Scanner;
 import java.util.zip.DataFormatException;
@@ -61,27 +60,27 @@ public class NotaNumerica extends Nota {
         }
         Data d= new Data(data);
         this.codStudent = codStudent;
-        ArrayList<Student> listaStudenti = Repository.getInstance().getStudenti();
-        for(Student s : listaStudenti){
-            if(s.getNrMatricol().equals(codStudent)){
-                this.student = s;
-                break;
-            }
-        }
+//        ArrayList<Student> listaStudenti = Repository.getInstance().getStudenti();
+//        for(Student s : listaStudenti){
+//            if(s.getNrMatricol().equals(codStudent)){
+//                this.student = s;
+//                break;
+//            }
+//        }
         this.codDisciplina = cod_Disciplina;
-        ArrayList<Disciplina> listaDiscipline = Repository.getInstance().getDiscipline();
-        for(Disciplina disc : listaDiscipline){
-            if(disc.getCodDisciplina() == cod_Disciplina){
-                this.disciplina = disc;
-                break;
-            }
-        }
+//        ArrayList<Disciplina> listaDiscipline = Repository.getInstance().getDiscipline();
+//        for(Disciplina disc : listaDiscipline){
+//            if(disc.getCodDisciplina() == cod_Disciplina){
+//                this.disciplina = disc;
+//                break;
+//            }
+//        }
         this.notaExamen = notaExamen;
         this.notalaborator = notaLaborator;
         this.notaProiect = notaProiect;
         this.notaSeminar = notaSeminar;
         this.dataExamen = d;
-        this.notaFinala = (int)(this.notaExamen * this.disciplina.getCoefExamne() + this.notalaborator * this.disciplina.getCoefLab() + this.notaProiect * this.disciplina.getCoefProiect() + this.notaSeminar * this.disciplina.getCoefSeminar());
+        //this.notaFinala = (int)(this.notaExamen * this.disciplina.getCoefExamne() + this.notalaborator * this.disciplina.getCoefLab() + this.notaProiect * this.disciplina.getCoefProiect() + this.notaSeminar * this.disciplina.getCoefSeminar());
         this.promovat = isPromovat();
     }
 
@@ -115,5 +114,9 @@ public class NotaNumerica extends Nota {
                 + (dataExamen != null ? "data examen= " + this.dataExamen + ",":"")
                 + "promovat= " + this.promovat + " "
                 + " ]";
+    }
+
+    public void setNotaFinala(){
+        this.notaFinala = (int)(this.notaExamen * this.disciplina.getCoefExamne() + this.notalaborator * this.disciplina.getCoefLab() + this.notaProiect * this.disciplina.getCoefProiect() + this.notaSeminar * this.disciplina.getCoefSeminar());
     }
 }

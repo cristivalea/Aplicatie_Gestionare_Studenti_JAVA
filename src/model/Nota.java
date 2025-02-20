@@ -1,6 +1,5 @@
 package model;
 
-import java.util.ArrayList;
 import java.util.Optional;
 
 public abstract class Nota {
@@ -19,21 +18,23 @@ public abstract class Nota {
      */
     public Nota(String codS, int codD, Data dataE) throws Exception{
         this.codStudent = codS;
-        ArrayList<Student> listaStudenti = Repository.getInstance().getStudenti();
-        for(Student s : listaStudenti){
-            if(s.getNrMatricol().equals(codS)){
-                this.student = s;
-                break;
-            }
-        }
+
+//        ArrayList<Student> listaStudenti = Repository.getInstance().getStudenti();
+//        for(Student s : listaStudenti){
+//            if(s.getNrMatricol().equals(codS)){
+//                this.student = s;
+//                break;
+//            }
+//        }
+
         this.codDisciplina = codD;
-        ArrayList<Disciplina> listaDiscipline = Repository.getInstance().getDiscipline();
-        for(Disciplina d : listaDiscipline){
-            if(d.getCodDisciplina() == codD){
-                this.disciplina = d;
-                break;
-            }
-        }
+//        ArrayList<Disciplina> listaDiscipline = Repository.getInstance().getDiscipline();
+//        for(Disciplina d : listaDiscipline){
+//            if(d.getCodDisciplina() == codD){
+//                this.disciplina = d;
+//                break;
+//            }
+//        }
         this.dataExamen = dataE;
     }
 
@@ -109,4 +110,10 @@ public abstract class Nota {
      * @return
      */
     public abstract Optional getNotaFinala();
+
+    public abstract void setNotaFinala();
+
+    public void setPromovat(Boolean b){
+        this.promovat = b;
+    }
 }

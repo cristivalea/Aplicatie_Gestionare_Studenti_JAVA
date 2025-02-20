@@ -25,6 +25,7 @@ public class NotaCalificativ extends Nota{
     }
 
     public String valoarea = "SUFICIENT";
+    private String calificativ = "";
 
     /**
      *
@@ -58,6 +59,7 @@ public class NotaCalificativ extends Nota{
        this.codStudent = str_cod_student;
        this.codDisciplina = cod_disciplina;
        this.dataExamen = d;
+       this.calificativ = calificativ;
        this.valoarea = calificativ;
        this.promovat = isPromovat();
     }
@@ -74,6 +76,7 @@ public class NotaCalificativ extends Nota{
         this.codStudent = registrationCode;
         this.codDisciplina = codDisciplina;
         this.dataExamen = dataExamne;
+        this.calificativ = calificativ;
         this.valoarea = calificativ;
     }
 
@@ -107,5 +110,9 @@ public class NotaCalificativ extends Nota{
                 + (this.getNotaFinala() != null ? "nota finala= " + this.getNotaFinala().get() + ",":"")
                 + "promovat= " + promovat
                 +"]";
+    }
+
+    public void setNotaFinala(){
+        this.valoarea = calificativ;
     }
 }
