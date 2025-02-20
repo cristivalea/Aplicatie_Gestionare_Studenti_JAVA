@@ -83,7 +83,7 @@ public abstract class Nota {
      *
      * @param student
      */
-    protected void setStudent(Student student) {
+    public void setStudent(Student student) {
         this.student = student;
     }
 
@@ -95,7 +95,7 @@ public abstract class Nota {
      *
      * @param disciplina
      */
-    protected void setDisciplina(Disciplina disciplina) {
+    public void setDisciplina(Disciplina disciplina) {
         this.disciplina = disciplina;
     }
 
@@ -115,5 +115,13 @@ public abstract class Nota {
 
     public void setPromovat(Boolean b){
         this.promovat = b;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public Data getDataExamen() {
+        return dataExamen;
     }
 }

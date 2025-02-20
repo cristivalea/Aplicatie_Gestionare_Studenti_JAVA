@@ -157,16 +157,16 @@ public class Student {
        scanner.useDelimiter(";");
        String nrMat = scanner.next();
        //teste.Main.logger.info(nrMat);
-       if(RegularExpresion.RegularExpresionNrMatricol(nrMat) == false){
-           FormatException fe = new FormatException(nrMat,FormatException.NR_MATRICOL_FORMAT);
-           throw fe;
-       }
-       for(String s : listaNrMatricole){
-           if(s.equals(nrMat)){
-               StudentNeadecvat nMAtnead = new StudentNeadecvat(StudentNeadecvat.UNICITATE,nrMat);
-               throw nMAtnead;
-           }
-       }
+//       if(RegularExpresion.RegularExpresionNrMatricol(nrMat) == false){
+//           FormatException fe = new FormatException(nrMat,FormatException.NR_MATRICOL_FORMAT);
+//           throw fe;
+//       }
+//       for(String s : listaNrMatricole){
+//           if(s.equals(nrMat)){
+//               StudentNeadecvat nMAtnead = new StudentNeadecvat(StudentNeadecvat.UNICITATE,nrMat);
+//               throw nMAtnead;
+//           }
+//       }
        String numeFam = scanner.next();
        if(RegularExpresion.RegularExpresionNumePrenume(numeFam) == false){
            FormatException fe = new FormatException(numeFam, FormatException.NUME_PRENUME_FORMAT);
@@ -330,5 +330,9 @@ public class Student {
            }
        }
        return false;
+    }
+
+    public void adaugareNota(Nota n){
+       this.note.add(n);
     }
 }

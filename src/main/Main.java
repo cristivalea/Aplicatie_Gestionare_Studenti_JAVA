@@ -94,6 +94,11 @@ public class Main {
                 modDataNastere.execute();
                 break;
             }
+            default:
+            {
+                System.out.println("Am iesit din aplicatie");
+                return;
+            }
         } // end switch
     } // end function
 

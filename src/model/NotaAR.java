@@ -16,7 +16,7 @@ public class NotaAR extends Nota{
         noteAR.add(ADMIS);
         noteAR.add(RESPINS);
     }
-    protected String valoare = "RESPINS";
+    public String valoare = "RESPINS";
     private String calificativ = "";
 
     //C;CTI022105;100;FOARTE BINE;26/6/2024

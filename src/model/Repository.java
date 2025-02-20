@@ -143,6 +143,52 @@ public class Repository {
         notifyObservers();
     } // end adauga student
 
+    public void adaugareNota(Student s, Nota nota) throws IOException{
+        File f = new File(Files.FILE_NOTE);
+        FileWriter f2 = new FileWriter(f,true);
+        if(f.canWrite()){
+            if(nota instanceof NotaNumerica){
+                //N;CTI022106;101;9;8;7;6;0,6;0,7;0,5;0,4;26/6/2024
+                NotaNumerica n = (NotaNumerica)nota;
+                String str= "N;" + s.getNrMatricol() + ";" + n.codDisciplina + ";" + n.getNotaExamen() + ";"
+                        + n.getNotalaborator() + ";" + n.getNotaProiect() + ";" + n.getNotaSeminar()
+                        + n.disciplina.getCoefExamne() + ";" + n.disciplina.getCoefLab() + ";"
+                        + n.disciplina.getCoefProiect() + ";" + n.disciplina.getCoefSeminar() + ";"
+                        + n.dataExamen.getZi() + "/" + n.dataExamen.getLuna() + "/" + n.dataExamen.getAn() + "\n";
+                f2.write(str);
+                f2.close();
+            }
+            if(nota instanceof NotaCalificativ){
+                NotaCalificativ n = (NotaCalificativ)nota;
+                //C;CTI022105;100;FOARTE BINE;26/6/2024
+                String str = "\nC;" + s.getNrMatricol() + ";" + n.codDisciplina + ";" + n.valoarea + ";"
+                        + n.dataExamen.getZi() + "/" + n.dataExamen.getLuna() + "/" + n.dataExamen.getAn();
+                f2.write(str);
+                f2.close();
+            }
+            if(nota instanceof NotaAR){
+                NotaAR n = (NotaAR) nota;
+                //A;CTI022107;102;ADMIS;26/6/2024
+                String str = "\nA;" + s.getNrMatricol() + ";" + n.codDisciplina + ";" + n.valoare + ";"
+                        + n.dataExamen.getZi() + "/" + n.dataExamen.getLuna() + "/" + n.dataExamen.getAn();
+                f2.write(str);
+                f2.close();
+            }
+        }
+        try {
+            for (int i = 0; i < Repository.getInstance().getStudenti().size(); i++) {
+                if (s.getNumeFamilie().equals(Repository.getInstance().getStudenti().get(i).getNumeFamilie())) {
+                    s.adaugareNota(nota);
+                    note.add(nota);
+                    notifyObservers();
+                    break;
+                }
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
     public void stergeStudent(Student std) throws IOException{
         int index = -1;
         for(int i = 0; i < studenti.size(); i++){

@@ -119,4 +119,20 @@ public class NotaNumerica extends Nota {
     public void setNotaFinala(){
         this.notaFinala = (int)(this.notaExamen * this.disciplina.getCoefExamne() + this.notalaborator * this.disciplina.getCoefLab() + this.notaProiect * this.disciplina.getCoefProiect() + this.notaSeminar * this.disciplina.getCoefSeminar());
     }
+
+    public int getNotaExamen() {
+        return notaExamen;
+    }
+
+    public int getNotalaborator() {
+        return notalaborator;
+    }
+
+    public int getNotaProiect() {
+        return notaProiect;
+    }
+
+    public int getNotaSeminar() {
+        return notaSeminar;
+    }
 }
