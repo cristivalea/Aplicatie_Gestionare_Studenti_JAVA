@@ -88,20 +88,26 @@ public class Repository {
         Scanner scanner=new Scanner(f);
         while(scanner.hasNext()) {
             String linie = scanner.nextLine().trim();
-            char caracter = linie.charAt(0);
-            switch (caracter){
-                case 'N':{
-                    note.add(new NotaNumerica(linie));
-                    break;
+            if(linie.isEmpty()) continue; // Ignoră liniile goale
+
+            try {
+                char caracter = linie.charAt(0);
+                switch (caracter) {
+                    case 'N':
+                        note.add(new NotaNumerica(linie));
+                        break;
+                    case 'C':
+                        note.add(new NotaCalificativ(linie));
+                        break;
+                    case 'A':
+                        note.add(new NotaAR(linie));
+                        break;
+                    default:
+                        System.err.println("Linie invalidă în fișier: " + linie);
                 }
-                case 'C':{
-                    note.add(new NotaCalificativ(linie));
-                    break;
-                }
-                case 'A':{
-                    note.add(new NotaAR(linie));
-                    break;
-                }
+            } catch (Exception e) {
+                System.err.println("Eroare la procesarea liniei: " + linie);
+                e.printStackTrace(); // Afișează detalii despre eroare
             }
         }
         scanner.close();

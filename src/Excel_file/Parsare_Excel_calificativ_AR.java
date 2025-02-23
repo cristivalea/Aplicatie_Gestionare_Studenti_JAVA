@@ -8,12 +8,12 @@ import org.apache.poi.ss.usermodel.Workbook;
 import java.io.File;
 import java.util.ArrayList;
 
-public class Parsare_Excel_Nota_Numerica {
-    private static final String cale_fisier_nota_numerica = "D:\\PYTHON\\Generare_Studenti_Local\\model\\catalog_examen_numeric.xlsx";
+public class Parsare_Excel_calificativ_AR {
+    private static final String cale_fisier_nota_calificativ_ar = "D:\\PYTHON\\Generare_Studenti_Local\\model\\catalog_examen_calificativar.xlsx";
 
-    public static ArrayList<NotaNumerica> getNoteNumerice(String cale_fisier_nota_numerica) throws Exception {
-        ArrayList<NotaNumerica> note_numerice = new ArrayList<>();
-        File xlsxFile = new File(cale_fisier_nota_numerica);
+    public static ArrayList<NotaAR> getNoteCalificativeAR(String cale_fisier_nota_calificativ) throws Exception {
+        ArrayList<NotaAR> note_calificative_ar = new ArrayList<NotaAR>();
+        File xlsxFile = new File(cale_fisier_nota_calificativ);
         final XlsReader reader = new XlsReader();
         Workbook workbook = reader.getWorkbook(xlsxFile);
         Sheet sheet = workbook.getSheetAt(0);
@@ -28,18 +28,15 @@ public class Parsare_Excel_Nota_Numerica {
             String prenume = row.getCell(1).getStringCellValue();
             String disciplina = row.getCell(2).getStringCellValue();
             String dataExamen = row.getCell(3).getStringCellValue();
-            int notaExamen = (int) row.getCell(4).getNumericCellValue();
-            int notaSeminar = (int) row.getCell(5).getNumericCellValue();
-            int notaLaborator = (int) row.getCell(6).getNumericCellValue();
-            int notaProiect = (int) row.getCell(7).getNumericCellValue();
-            double coefPrezentaExamen = row.getCell(8).getNumericCellValue();
-            double coefPrezentaSeminar = row.getCell(9).getNumericCellValue();
-            double coefPrezentaLaborator = row.getCell(10).getNumericCellValue();
-            double coefPrezentaProiect = row.getCell(11).getNumericCellValue();
-            System.out.println(nume + prenume + disciplina + dataExamen + notaExamen + notaSeminar + notaLaborator + notaProiect + coefPrezentaExamen + coefPrezentaLaborator + coefPrezentaSeminar + coefPrezentaProiect);
+            String calificativ = row.getCell(4).getStringCellValue();
+            double coefPrezentaExamen = row.getCell(5).getNumericCellValue();
+            double coefPrezentaSeminar = row.getCell(6).getNumericCellValue();
+            double coefPrezentaLaborator = row.getCell(7).getNumericCellValue();
+            double coefPrezentaProiect = row.getCell(8).getNumericCellValue();
             index++;
+            System.out.println(nume + prenume + disciplina + dataExamen + calificativ + coefPrezentaExamen + coefPrezentaLaborator + coefPrezentaSeminar + coefPrezentaProiect);
 
-             //Găsirea studentului;
+            //Găsirea studentului;
             Student student = null;
             for(int j = 0; j < Repository.getInstance().getStudenti().size(); j++){
                 if(nume.equals(Repository.getInstance().getStudenti().get(j).getNumeFamilie())){
@@ -48,7 +45,7 @@ public class Parsare_Excel_Nota_Numerica {
                 }
             }
 
-             //Găsirea disciplinei
+            //Găsirea disciplinei
             Disciplina disciplina1 = null;
             for(int k = 0; k < Repository.getInstance().getDiscipline().size(); k++){
                 if(disciplina.equals(Repository.getInstance().getDiscipline().get(k).getNumeDisciplina())){
@@ -56,20 +53,20 @@ public class Parsare_Excel_Nota_Numerica {
                     break;
                 }
             }
-            NotaNumerica nota_numerica = new NotaNumerica(disciplina1, student, notaExamen, notaLaborator, notaProiect, notaSeminar, new Data(dataExamen));
-            note_numerice.add(nota_numerica);
+            NotaAR nota_calificativ_ar = new NotaAR(student.getNrMatricol(), disciplina1.getCodDisciplina(), new Data(dataExamen), calificativ);
+            note_calificative_ar.add(nota_calificativ_ar);
         }
         System.out.println(index);
         workbook.close();
-       return note_numerice;
+        return note_calificative_ar;
     }
-
-    public static void main(String[] args) {
+    public static void main(String[] args){
         try {
-            ArrayList<NotaNumerica> note = getNoteNumerice(cale_fisier_nota_numerica);
+            ArrayList<NotaAR> note = getNoteCalificativeAR(cale_fisier_nota_calificativ_ar);
             System.out.println("Notele au fost procesate cu succes.");
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
 }
