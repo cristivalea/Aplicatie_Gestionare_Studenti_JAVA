@@ -22,7 +22,7 @@ public class RegularExpresion {
 
     public static boolean RegularExpresionNumePrenume(String linie){
         linie = linie.trim();
-        Pattern pattern = Pattern.compile("^[A-Z][a-z]*$", Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile("^[A-ZĂÂÎȘȚ][a-zăâîșț]*$", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(linie);
         boolean matchFound = matcher.find();
         return matchFound;

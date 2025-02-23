@@ -20,7 +20,7 @@ public class FormatException extends Exception{
     {
         map.put(DATA_FORMAT, "[123]?\\d\\/[1]?\\d\\/\\d{4}");
         map.put(NR_MATRICOL_FORMAT, "CTI\\d{3}[1-9]\\d{2}");
-        map.put(NUME_PRENUME_FORMAT, "^[A-Z][a-z]*$");
+        map.put(NUME_PRENUME_FORMAT, "^[A-ZĂÂÎȘȚ][a-zăâîșț]*$");
         map.put(STUDENT_LINIE_FORMAT, "CTI\\d{3}[1-9]\\d{2}\\;[A-Z]\\w*\\;([A-Z]\\w*\\s?)+\\;[123]?\\d\\/[1]?\\d\\/\\d{4}\\;[123]?\\d\\/[1]?\\d\\/\\d{4}");
         map.put(FORMAT_LINIE_NOTA_CALIFICATIV, "[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
         map.put(FORMAT_LINIE_AR, "[A]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");

@@ -104,10 +104,10 @@ public class Student {
            throw fndi;
        }
        Main2.logger.info("Verificare format data inmatriculare");
-       if(dataInm.diferenta(dataN) < (18 * 365)){
-           StudentNeadecvat std = new StudentNeadecvat(StudentNeadecvat.DATA_INMATRICULARE_ADECVATA, dataInm.toString());
-           throw std;
-       }
+//       if(dataInm.diferenta(dataN) < (18 * 365)){
+//           StudentNeadecvat std = new StudentNeadecvat(StudentNeadecvat.DATA_INMATRICULARE_ADECVATA, dataInm.toString());
+//           throw std;
+//       }
        Main2.logger.info("Verificare diferenta dintre date");
        if(dataInm.getAn() < 1921){
            StudentNeadecvat std = new StudentNeadecvat(StudentNeadecvat.DATA_INMATRICULARE_ADECVATA, dataInmatriculare.toString());

@@ -12,7 +12,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class ParsareJSON {
-    private static final String FOLDER_JSON = "D:\\JAVA\\Evidenta Studenti\\Evidenta_Studenti\\src\\Studenti";
+    private static final String FOLDER_JSON = "D:\\PYTHON\\Generare_Studenti_Local\\Studenti_JSON";
+    //private static final String FOLDER_JSON = "D:\\JAVA\\Evidenta Studenti\\Evidenta_Studenti\\src\\Studenti";
 
     /**
      *
@@ -26,11 +27,15 @@ public class ParsareJSON {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             JsonNode root = objectMapper.readTree(new File(fileName));
+            //extrage numele
             String nume = root.get("Nume").asText();
+
+            //extrage lista de prenume
             ArrayList<String> prenume = new ArrayList<String>();
             for (JsonNode p : root.get("Prenume")) {
                 prenume.add(p.asText());
             }
+            //extrage si formeaza data nasterii
             JsonNode dataNastereNode = root.get("Data Nastere");
             Data dataNastere = new Data(
                     Integer.parseInt(dataNastereNode.get("Zi").asText()),
