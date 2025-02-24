@@ -1,7 +1,6 @@
 package model;
 
 import exceptii.CalificativInexistent;
-import exceptii.FormatInadecvatLinieNotaCalificativ;
 
 import java.util.ArrayList;
 import java.util.Optional;
@@ -34,10 +33,10 @@ public class NotaCalificativ extends Nota{
      */
     public NotaCalificativ(String linie) throws Exception{
         super();
-        if(!RegularExpresion.RegularExpresionLinieNotaCalificativ(linie)){
-            FormatInadecvatLinieNotaCalificativ inadecvat = new FormatInadecvatLinieNotaCalificativ(linie, "[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
-            throw inadecvat;
-        }
+//        if(!RegularExpresion.RegularExpresionLinieNotaCalificativ(linie)){
+//            FormatInadecvatLinieNotaCalificativ inadecvat = new FormatInadecvatLinieNotaCalificativ(linie, "[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
+//            throw inadecvat;
+//        }
         Scanner scanner = new Scanner(linie);
         scanner.useDelimiter(";");
         scanner.next();

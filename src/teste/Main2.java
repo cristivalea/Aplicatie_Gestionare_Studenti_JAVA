@@ -58,26 +58,26 @@ public class Main2 {
         model.Student s1= new model.Student("CTI22105;Popescu;Daniel Ionel Aurel Octavian;22/5/1982;17/7/2001");
         System.out.println(s1);*/
 
-//       try {
-//            for(Disciplina d:Repository.getInstance().getDiscipline())
-//                System.out.println(d);
-//            System.out.println("--------------------------");
-//            for(Student student:Repository.getInstance().getStudenti())
-//                System.out.println(student);
-//            System.out.println("--------------------------");
-//            for(Nota n: Repository.getInstance().getNote())
-//                System.out.println(n);
-//        } catch (IOException e) {
-//             e.printStackTrace();
-//        }
-        //System.out.println(Repository.getInstance().getStudenti());
+       try {
+            for(Disciplina d:Repository.getInstance().getDiscipline())
+                System.out.println(d);
+            System.out.println("--------------------------");
+            for(Student student:Repository.getInstance().getStudenti())
+                System.out.println(student);
+            System.out.println("--------------------------");
+            for(Nota n: Repository.getInstance().getNote())
+                System.out.println(n);
+        } catch (IOException e) {
+             e.printStackTrace();
+        }
+        System.out.println(Repository.getInstance().getStudenti());
         //Student s2 = new Student("CTI022345;Mihai;Ion Nicu;21/3/1978;23/7/2021");
         // Repository.getInstance().adaugaStudent(s2);
-        Disciplina d = new Disciplina("104;Programarea calculatoarelor;0,5;0,5;0;0;0;0;0;0;6");
-        NotaAR n = new NotaAR("A;CTI023137;104;ADMIS;21/6/2024");
-        n.setDisciplina(d);
-        Student s = new Student("CTI023137;Stan;Ramona;5/11/1993;21/7/2023");
-        adaugareNota2(s, n);
+//        Disciplina d = new Disciplina("104;Programarea calculatoarelor;0,5;0,5;0;0;0;0;0;0;6");
+//        NotaAR n = new NotaAR("A;CTI023137;104;ADMIS;21/6/2024");
+//        n.setDisciplina(d);
+//        Student s = new Student("CTI023137;Stan;Ramona;5/11/1993;21/7/2023");
+//        adaugareNota2(s, n);
     }
 
 }

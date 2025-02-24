@@ -81,35 +81,40 @@ public class Repository {
         Scanner scanner=new Scanner(f);
         while(scanner.hasNext())
             discipline.add(new Disciplina(scanner.nextLine()));
-        scanner.close(); }
+        scanner.close();
+    }
 
     public static void loadNote() throws Exception{
         File f=new File(Files.FILE_NOTE);
         Scanner scanner=new Scanner(f);
         while(scanner.hasNext()) {
             String linie = scanner.nextLine().trim();
-            if(linie.isEmpty()) continue; // Ignoră liniile goale
-
+            char caracter = linie.charAt(0);
+           // System.out.println("Se procesează linia: " + linie);
             try {
-                char caracter = linie.charAt(0);
                 switch (caracter) {
                     case 'N':
-                        note.add(new NotaNumerica(linie));
+                        NotaNumerica n = new NotaNumerica(linie);
+                        System.out.println("Adăugare NotaNumerica: " + n);
+                        note.add(n);
                         break;
                     case 'C':
+                        System.out.println("Adăugare NotaCalificativ");
                         note.add(new NotaCalificativ(linie));
                         break;
                     case 'A':
+                        System.out.println("Adăugare NotaAR");
                         note.add(new NotaAR(linie));
                         break;
                     default:
                         System.err.println("Linie invalidă în fișier: " + linie);
                 }
             } catch (Exception e) {
-                System.err.println("Eroare la procesarea liniei: " + linie);
-                e.printStackTrace(); // Afișează detalii despre eroare
+                System.err.println("Eroare la procesarea notei: " + linie);
+                e.printStackTrace();
             }
         }
+
         scanner.close();
     }
 
@@ -237,3 +242,5 @@ public class Repository {
         }
     }
 } // end class
+
+
