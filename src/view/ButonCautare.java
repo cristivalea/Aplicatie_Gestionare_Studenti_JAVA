@@ -22,7 +22,7 @@ public class ButonCautare extends JButton implements Comand {
         this.comboBox.setVisible(false); // Inițial nu este vizibil
     }
 
-    public void execute() {
+    public void execute(){
         try {
             String numeFamilie = this.textNumeText.getText();
 

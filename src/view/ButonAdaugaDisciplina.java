@@ -3,7 +3,6 @@ package view;
 import model.Disciplina;
 
 import javax.swing.*;
-import java.util.concurrent.atomic.DoubleAccumulator;
 
 public class ButonAdaugaDisciplina extends JButton implements Comand{
     private JTextField txtCodDisciplina;

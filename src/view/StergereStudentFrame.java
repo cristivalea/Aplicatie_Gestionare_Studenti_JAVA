@@ -14,8 +14,12 @@ public class StergereStudentFrame extends JFrame implements ActionListener {
     private JPanel panel2;
     private ButonCautare butonCautare;
     private JLabel labelAfisareStudentCautare;
+
+    //buton stergere
     private JPanel panelButonStergere;
     private ButonStergere butonStergere;
+
+
     private JPanel mainPanel;
     private JComboBox<String> comboBoxStudenti;
 
