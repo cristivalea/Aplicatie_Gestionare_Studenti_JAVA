@@ -115,4 +115,12 @@ public class NotaCalificativ extends Nota{
     public void setNotaFinala(){
         this.valoarea = calificativ;
     }
+
+    public String repr(){
+        String string = "";
+       // String data = dataExamen.getZi() + "/" + dataExamen.getLuna() + "/" + dataExamen.getAn();
+        string  = String.format("C;%s;%d;%s;%d/%d/%d", codStudent, codDisciplina, calificativ, dataExamen.getZi(), dataExamen.getLuna().getNrOrdine(), dataExamen.getAn());
+        //string = "C;" + codStudent + ";" + codDisciplina + ";" + calificativ + ";" + dataExamen;
+        return string;
+    }
 }

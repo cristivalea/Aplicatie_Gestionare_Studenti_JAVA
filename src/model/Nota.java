@@ -125,4 +125,7 @@ public abstract class Nota {
     public Data getDataExamen() {
         return dataExamen;
     }
+
+    // reprezentarea sub forma de string pentru a scrie in fisierul de note
+    public abstract String repr();
 }

@@ -226,6 +226,45 @@ public class Repository {
         }
     }
 
+    public void stergeNota(Nota n) throws Exception{
+        String tipNota = null;
+        if(n instanceof NotaNumerica){
+            tipNota = "NotaNumerica";
+        }
+        else if(n instanceof NotaCalificativ){
+            tipNota = "NotaCalificativ";
+        }
+        else if(n instanceof  NotaAR){
+            tipNota = "CalificativAR";
+        }
+        if(tipNota == null){
+            System.err.println("Nota nu respecta nici un tip");
+            return;
+        }
+        int index = -1;
+        for(int i = 0; i < note.size(); i++){
+            if(note.get(i).getCodDisciplina() == n.codDisciplina){
+                index = i;
+                break;
+            }
+        }
+        if(index == -1){
+            System.err.println("Nu s-a gasit nota");
+            return;
+        }
+        note.remove(n);
+        notifyObservers();
+        File f = new File(Files.FILE_NOTE);
+        if(f.canWrite()){
+            FileWriter f2 = new FileWriter(f);
+            for(int i = 0; i < note.size() - 1; i++){
+                f2.write(note.get(i).repr() + "\n");
+            }
+            f2.write(note.get(note.size() - 1).repr());
+            f2.close();
+        }
+    }
+
     public void registerObserver(Observer obj){
         observatori.add(obj);
     }

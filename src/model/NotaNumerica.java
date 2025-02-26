@@ -151,4 +151,11 @@ public class NotaNumerica extends Nota {
     public void setNotaSeminar(int notaSeminar) {
         this.notaSeminar = notaSeminar;
     }
+
+
+    public String repr(){
+        String string = "";
+        string = String.format("N;%s;%d;%d;%d;%d;%d;%f;%f;%f;%f;%d/%d/%d", codStudent, codDisciplina, notaExamen, notalaborator, notaSeminar, notaProiect, disciplina.getCoefPrezentaCurs(), disciplina.getCoefPrezentaLab(), disciplina.getCoefPrezentaSeminar(), dataExamen.getZi(), dataExamen.getLuna().getNrOrdine(), dataExamen.getAn());
+        return string;
+    }
 }
