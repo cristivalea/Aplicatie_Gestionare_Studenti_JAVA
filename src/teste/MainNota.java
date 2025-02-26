@@ -29,10 +29,10 @@ public class MainNota {
     }
 
 
-    public static void main3(String[] args){
+    public static void main(String[] args){
         try {
             Repository.loadNote();
-            //for (Nota n : Repository.note)
+            for (Nota n : Repository.note)
                 System.out.println(Repository.note);
             CautareNoteStudent c =new CautareNoteStudent();
             c.execute();

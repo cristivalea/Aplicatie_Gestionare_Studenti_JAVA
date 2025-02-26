@@ -135,4 +135,20 @@ public class NotaNumerica extends Nota {
     public int getNotaSeminar() {
         return notaSeminar;
     }
+
+    public void setNotaExamen(int notaExamen) {
+        this.notaExamen = notaExamen;
+    }
+
+    public void setNotalaborator(int notalaborator) {
+        this.notalaborator = notalaborator;
+    }
+
+    public void setNotaProiect(int notaProiect) {
+        this.notaProiect = notaProiect;
+    }
+
+    public void setNotaSeminar(int notaSeminar) {
+        this.notaSeminar = notaSeminar;
+    }
 }

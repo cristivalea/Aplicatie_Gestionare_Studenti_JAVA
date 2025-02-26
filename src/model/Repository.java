@@ -8,9 +8,7 @@ import view.Observer;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Optional;
-import java.util.Scanner;
+import java.util.*;
 
 public class Repository {
     private static ArrayList<Disciplina> discipline=new ArrayList<Disciplina>();
@@ -22,7 +20,7 @@ public class Repository {
     {
         Main2.logger.info("****************Incarcare discipline**************");
         loadDiscipline();
-        //incarcare note
+//        //incarcare note
         Main2.logger.info("*****************Incarcare Note********************");
         loadNote();
         for(Nota n:note) {
@@ -42,13 +40,18 @@ public class Repository {
                 if(s.getNrMatricol().equals(n.getCodStudent())) {
                     s.getNote().add(n);
                 }
-        //update note
-        for(Nota n:note)
-            for(Student s:studenti)
-                if(n.getCodStudent().equals(s.getNrMatricol()))
-                { n.setStudent(s);
-                break;
-                }
+//        //update note
+           Map<String, Student> mapStudenti = new HashMap<>();
+            for(Student s : studenti) {
+                mapStudenti.put(s.getNrMatricol(), s);
+            }
+
+        for(Nota n : note) {
+            Student s = mapStudenti.get(n.getCodStudent());
+            if (s != null) {
+                n.setStudent(s);
+            }
+        }
         Main2.logger.info("*********************Update studenti***********************");
         for(Student s : studenti){
             Main2.logger.info("Studentul: " + s.toString());
@@ -88,31 +91,22 @@ public class Repository {
         File f=new File(Files.FILE_NOTE);
         Scanner scanner=new Scanner(f);
         while(scanner.hasNext()) {
-            String linie = scanner.nextLine().trim();
+            String linie = scanner.next().trim();
             char caracter = linie.charAt(0);
-           // System.out.println("Se procesează linia: " + linie);
-            try {
+            System.out.println(caracter);
                 switch (caracter) {
                     case 'N':
-                        NotaNumerica n = new NotaNumerica(linie);
-                        System.out.println("Adăugare NotaNumerica: " + n);
-                        note.add(n);
+                        note.add(new NotaNumerica(linie));
                         break;
                     case 'C':
-                        System.out.println("Adăugare NotaCalificativ");
                         note.add(new NotaCalificativ(linie));
                         break;
-                    case 'A':
-                        System.out.println("Adăugare NotaAR");
+                    case 'A': ;
                         note.add(new NotaAR(linie));
                         break;
                     default:
                         System.err.println("Linie invalidă în fișier: " + linie);
                 }
-            } catch (Exception e) {
-                System.err.println("Eroare la procesarea notei: " + linie);
-                e.printStackTrace();
-            }
         }
 
         scanner.close();

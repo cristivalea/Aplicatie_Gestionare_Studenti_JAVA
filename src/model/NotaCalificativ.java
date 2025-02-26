@@ -32,6 +32,7 @@ public class NotaCalificativ extends Nota{
      * @throws Exception
      */
     public NotaCalificativ(String linie) throws Exception{
+        //C;CTI022105;100;FOARTE BINE;26/6/2024
         super();
 //        if(!RegularExpresion.RegularExpresionLinieNotaCalificativ(linie)){
 //            FormatInadecvatLinieNotaCalificativ inadecvat = new FormatInadecvatLinieNotaCalificativ(linie, "[C]\\;[A-Z]{3}\\d{3}[1-9]\\d{2}\\;[1-9]\\d{2};([A-Z]+\\s?)*\\;[1-3]?\\d\\/[1]?\\d\\/\\d{4}");
