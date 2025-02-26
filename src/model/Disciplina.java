@@ -22,7 +22,9 @@ public class Disciplina {
     private FisaDisciplinei fisaDisciplinei;
     private static ArrayList<Short> coduriExistente = new ArrayList<Short>();
 
-    public Disciplina(short codD, String numeD, double coefE, double coefL, double coefP, double coefS, double coefPC, double coefPL, double coefPS, double coefPP, short nrC) {
+    TipNota tipNota;
+
+    public Disciplina(short codD, String numeD, double coefE, double coefL, double coefP, double coefS, double coefPC, double coefPL, double coefPS, double coefPP, short nrC, TipNota tn) {
         this.codDisciplina = codD;
         this.numeDisciplina = numeD;
         this.coefExamne = coefE;
@@ -34,11 +36,22 @@ public class Disciplina {
         this.coefPrezentaSeminar = coefPS;
         this.coefPrezentaProiect = coefPS;
         this.nrCredite = nrC;
+        this.tipNota = tn;
     }
 
     public Disciplina(String linie) {
         Scanner scanner = new Scanner(linie);
         scanner.useDelimiter(";");
+        String tNota = scanner.next();
+        if(tNota.equals("N")){
+            this.tipNota = TipNota.N;
+        }
+        else if(tNota.equals("C")){
+            this.tipNota = TipNota.C;
+        }
+        else if(tNota.equals("A")){
+            this.tipNota = TipNota.A;
+        }
         short codD = scanner.nextShort();
         this.codDisciplina = codD;
         this.numeDisciplina = scanner.next();
@@ -169,6 +182,10 @@ public class Disciplina {
 
     public FisaDisciplinei getFisaDisciplinei() {
         return fisaDisciplinei;
+    }
+
+    public TipNota getTipNota() {
+        return tipNota;
     }
 
     public void setNumeDisciplina(String numeDisciplina) {
