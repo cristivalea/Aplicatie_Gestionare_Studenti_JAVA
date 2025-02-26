@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Properties;
 
-public class FrameAdaugareNotaCalificativ extends JFrame implements ActionListener {
+public class FrameAdaugareNotaCalificativAR extends JFrame implements ActionListener {
 
     //tipul notei
     private JPanel panelTipNota;
@@ -53,7 +53,6 @@ public class FrameAdaugareNotaCalificativ extends JFrame implements ActionListen
     private JPanel panelButonAdaugare;
     private ButonAdaugareNota butonAdaugareNota;
 
-
     private JDatePickerImpl createDatePicker() {
         UtilDateModel model = new UtilDateModel();
         Properties p = new Properties();
@@ -64,7 +63,7 @@ public class FrameAdaugareNotaCalificativ extends JFrame implements ActionListen
         return new JDatePickerImpl(datePanel, new DateLabelFormatter());
     }
 
-    public FrameAdaugareNotaCalificativ(){
+    public FrameAdaugareNotaCalificativAR(){
         this.mainPanel = new JPanel();
         BoxLayout layout = new BoxLayout(this.mainPanel, BoxLayout.Y_AXIS);
         this.mainPanel.setLayout(layout);
@@ -119,7 +118,7 @@ public class FrameAdaugareNotaCalificativ extends JFrame implements ActionListen
 
         //panel calificativ
         this.panelCalificativ = new JPanel();
-        String calificative[] = {"INSUFICIENT", "SUFICIENT", "BINE", "FOARTE BINE", "EXCELENT"};
+        String calificative[] = {"ADMIS", "RESPINS"};
         this.txtCalificativ = new JComboBox<>(calificative);
         this.labelCalificativ = new JLabel("Calificative");
         this.panelCalificativ.add(this.labelCalificativ);
@@ -158,6 +157,8 @@ public class FrameAdaugareNotaCalificativ extends JFrame implements ActionListen
     }
 
     public static void main(String[] args){
-        new FrameAdaugareNotaCalificativ();
+        new FrameAdaugareNotaCalificativAR();
     }
 }
+
+
