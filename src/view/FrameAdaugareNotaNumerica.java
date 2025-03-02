@@ -1,6 +1,9 @@
 package view;
 
+<<<<<<< HEAD
 import model.Disciplina;
+=======
+>>>>>>> origin/master
 import model.TipNota;
 import org.jdatepicker.impl.JDatePanelImpl;
 import org.jdatepicker.impl.JDatePickerImpl;
@@ -152,6 +155,7 @@ public class FrameAdaugareNotaNumerica extends JFrame implements ActionListener 
         this.mainPanel.add(this.panelCautareDisciplina);
 
         //nota examen
+<<<<<<< HEAD
         this.panelNotaExame = new JPanel();
         this.txtNotaExamen = new JTextField(5);
         this.labelNotaExamen = new JLabel("Nota examen");
@@ -248,19 +252,29 @@ public class FrameAdaugareNotaNumerica extends JFrame implements ActionListener 
 //        this.adaugareDsiciplina.addActionListener(this);
 //        this.panelAdaugareDisciplina.add(this.adaugareDsiciplina);
 //        this.mainPanel.add(this.panelAdaugareDisciplina);
+=======
+>>>>>>> origin/master
 
 
         this.add(mainPanel);
         this.setVisible(true);
+<<<<<<< HEAD
 
         this.pack();
         this.setSize(700, 800);
+=======
+        this.pack();
+        this.setSize(700, 500);
+>>>>>>> origin/master
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
         ((Comand) actionEvent.getSource()).execute();
     }
 

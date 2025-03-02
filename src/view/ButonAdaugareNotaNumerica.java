@@ -1,14 +1,21 @@
 package view;
 
 import main.Comand;
+<<<<<<< HEAD
 import model.Data;
 import model.NotaNumerica;
+=======
+>>>>>>> origin/master
 import model.TipNota;
 import org.jdatepicker.impl.JDatePickerImpl;
 
 import javax.swing.*;
 
+<<<<<<< HEAD
 public class ButonAdaugareNotaNumerica extends JButton implements Comand {
+=======
+public class ButonAdaugareNotaNumerica implements Comand {
+>>>>>>> origin/master
     private JComboBox<TipNota> tipNota;
     private ButonCautare butonStudent;
     private ButonCautareDiscipline butonDisciplina;
@@ -21,6 +28,7 @@ public class ButonAdaugareNotaNumerica extends JButton implements Comand {
     private JTextField txtCoefPrezentaSeminar;
     private JTextField txtCoefPrezentaProiect;
     private JDatePickerImpl dataExamen;
+<<<<<<< HEAD
 
     public ButonAdaugareNotaNumerica(JComboBox<TipNota> tipNota, ButonCautare butonStudent, ButonCautareDiscipline butonDisciplina, JTextField txtNotaExamen, JTextField txtNotaLaborator, JTextField txtNotaSeminar, JTextField txtNotaProiect, JTextField txtCoefPrezentaCurs, JTextField txtCoefPrezentaLab, JTextField txtCoefPrezentaSeminar, JTextField txtCoefPrezentaProiect, JDatePickerImpl dataExamen) {
         super("Adauga Nota Numerica");
@@ -62,5 +70,9 @@ public class ButonAdaugareNotaNumerica extends JButton implements Comand {
         }catch (Exception e){
             e.printStackTrace();
         }
+=======
+    public void execute(){
+
+>>>>>>> origin/master
     }
 }
